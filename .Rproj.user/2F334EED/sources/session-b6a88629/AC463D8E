@@ -3,7 +3,7 @@
     "path": "~/IaccheiLabWebsite/LeilaBio.qmd",
     "project_path": "LeilaBio.qmd",
     "type": "quarto_markdown",
-    "hash": "1083851746",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1755749073306.0,
@@ -12,20 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,5",
+        "cursorPosition": "22,0",
         "scrollLine": "4",
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
-        "docOutlineVisible": "1",
+        "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "548:212.5"
+        "rmdVisualModeLocation": "543:131"
     },
     "folds": "",
-    "lastKnownWriteTime": 1755749166,
+    "lastKnownWriteTime": 1755751185,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1755749166203,
+    "last_content_update": 1755751185235,
     "read_only": false,
     "read_only_alternatives": []
 }
