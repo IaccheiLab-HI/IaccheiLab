@@ -117,7 +117,7 @@ about:
   </div>
 
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Alondra Reyes" />
+    <img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" />
     <h3><a href="AlondraBio.qmd">Alondra Reyes</a></h3>
     <h6><a href="AlondraBio.qmd">Graduate Student</a></h6>
   </div>
