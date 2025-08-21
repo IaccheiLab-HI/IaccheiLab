@@ -10,6 +10,8 @@ website:
         text: Home
       - about.qmd
       - team.qmd
+      - News.qmd
+      - Research.qmd
     tools: 
       - icon: instagram
         href: https://www.instagram.com/iaccheilab/?next=%2F
