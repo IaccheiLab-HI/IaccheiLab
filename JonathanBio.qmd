@@ -1,0 +1,12 @@
+---
+title: "Jonathan Lin" 
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/WebsitePhoto_Lin.jpeg
+---
+
+# Bio
+
+Jonathan graduated from the University of California, Santa Cruz (UCSC) with a B.S. in marine biology. During his time at UCSC, he interned for the National Oceanic and Atmospheric Administration (NOAA) Fisheries Ecology Division, researching how ocean conditions influence fecundity in rockfish species. He is currently pursuing his Master of Science in Marine Science at the Hawai‘i Pacific University in the Iacchei lab. Jonathan is interested in analyzing the DNA in gut content of flying fish to understand their diet.

@@ -1,0 +1,10 @@
+---
+title: "Alondra Reyes"
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/avatar.jpeg
+---
+
+# Bio

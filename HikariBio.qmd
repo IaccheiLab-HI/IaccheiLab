@@ -1,0 +1,19 @@
+---
+title: "Hikari Bauson"
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/WebsitePhoto_Bauson.jpg
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:hbauson1@my.hpu.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/hbauson
+---
+
+## Bio
+
+Hikari is an undergraduate student pursuing a B.S. in Marine Biology with a minor in Music at Hawai‘i Pacific University. She is currently working on extracting and processing DNA from flying fish and their gut content. Hikari is interested in studying marine invertebrates, especially worms in the phylum Annelida for her senior capstone. She hopes to gain more experience in lab settings after graduation and is looking into pursuing a Master’s Degree.

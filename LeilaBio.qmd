@@ -1,0 +1,27 @@
+---
+title: "Leila Tewahade" 
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/WebsitePhoto_Tewahade.JPG
+  links: 
+    - icon: github
+      text: GitHub
+      href: https://github.com/leilatewahade/Tewahade_LabNotebook.git
+    - icon: envelope
+      text: Email
+      href: mailto:ltewahade1@my.hpu.edu
+    - icon: file-person
+      text: CV
+      href: https://leilatewahade.github.io/Tewahade_LabNotebook/
+    - icon: book
+      text: Lab Notebook
+      href: https://leilatewahade.github.io/Tewahade_LabNotebook/
+---
+
+## Bio
+
+*Insert Bio*
+
+<br />

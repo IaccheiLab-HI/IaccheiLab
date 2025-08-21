@@ -1,0 +1,21 @@
+---
+title: "Veronika Pearson"
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/WebsitePhoto_Pearson.jpeg
+  links: 
+    - icon: envelope
+      text: Contact
+      href: mailto:vpearson1@my.hpu.edu
+    - icon: envelope
+      text: Email
+      href: mailto:veronikapearson1@gmail.com
+---
+
+## Bio
+
+Veronika graduated from Hawaiʻi Pacific University (HPU) Cum Laude with a B.S. in Marine Biology in 2025. Her research was focused on how toxin producing dinoflagellates varied across the coastal regions of Oahu. Her research utilized spatial analysis and Bayesian modeling of multiple potential environmental drivers on dinoflagellate cell density. After graduating, she continued studying dinoflagellates by working as a research technician to conduct the molecular identification of the dinoflagellate biodiversity sampled on Oahu. She now plans to further her education by pursuing a masters degree. 
+
+\

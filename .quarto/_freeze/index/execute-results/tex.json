@@ -1,0 +1,15 @@
+{
+  "hash": "0089a970cb10ae8c9ee81df1931d8285",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"title\"\npage-layout: full\neditor_options: \n  chunk_output_type: inline\ntitle-block-banner: blue\n\nformat:\n  pdf:\n    template-partials:\n      - title.tex\n\nabout: \n  template: marquee\n  image: images/IMG_2947.jpg\n  links: \n    - icon: instagram\n      text: Instagram\n      href: https://www.instagram.com/iaccheilab/?next=%2F\n---\n\nThe Iacchei Lab is an academic research laboratory at Hawaii Pacific University.\n\nOur lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

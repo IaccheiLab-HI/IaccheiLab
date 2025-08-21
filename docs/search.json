@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Iacchei Lab",
+    "section": "",
+    "text": "Welcome to the Iacchei Lab\nThe Iacchei Lab is an academic research laboratory at Hawaii Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.\nClick here to find out more.\n\n\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites, visit the official documentation.\n```{r} 1 + 1\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "SophiBio.html",
+    "href": "SophiBio.html",
+    "title": "Sophi Samus",
+    "section": "",
+    "text": "link to lab notebook\nAbout\nSophi graduated from Hawai‘i Pacific University with a B.S. in marine biology where she worked on a number of projects including barcoding lobster phyllosoma samples and sorting plankton tows. She is now in the Master of Science in Marine Science (MSMS) program at HPU in the Iacchei (MOB) lab. Sophi is primarily interested in the evolutionary impacts of climate change on intertidal invertebrates. Her thesis will investigate differential gene expression between Hawaiian limpets (’opihi) in normal and stressed conditions. After she graduates, she plans to pursue a PhD in marine ecology, furthering her masters research.\nContact\nssamus1@my.hpu.edu\nCV\n\n\n Back to top"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "(Years)\n  \n  \n      \n      \n      \n      (Years)\n    \n  \n    \n    \n    \n    (Years)\n  \n\n \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n    \n\n\n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)"
+  },
+  {
+    "objectID": "team.html#principal-investigator",
+    "href": "team.html#principal-investigator",
+    "title": "Team",
+    "section": "Principal Investigator",
+    "text": "Principal Investigator\n\n\n\n\nMatthew Iacchei"
+  },
+  {
+    "objectID": "team.html#graduate-students",
+    "href": "team.html#graduate-students",
+    "title": "Team",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\nJonathan Lin\nAlondra Reyes\n\nSophi Samus"
+  },
+  {
+    "objectID": "team.html#undergraduate-students",
+    "href": "team.html#undergraduate-students",
+    "title": "Team",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n\n\n\n\nLeila Tewahade\nHikari Bauson"
+  },
+  {
+    "objectID": "team.html#alum",
+    "href": "team.html#alum",
+    "title": "Team",
+    "section": "Alum",
+    "text": "Alum\n\n  \n    \n    Amelia\n    TITLE\n    (Years)\n  \n  \n      \n      Klara\n      TITLE\n      (Years)\n    \n  \n    \n    Veronika\n    TITLE\n    (Years)\n  \n\n \n  \n    \n    Mylou\n    TITLE\n    (Years)\n  \n  \n    \n    Vale\n    TITLE\n    (Years)\n  \n  \n    \n    Aspen\n    TITLE\n    (Years)\n    \n\n\n  \n    \n    Diya\n    TITLE\n    (Years)\n  \n  \n    \n    Nan\n    TITLE\n    (Years)\n  \n  \n    \n    Sav\n    TITLE\n    (Years)"
+  },
+  {
+    "objectID": "MattBio.html",
+    "href": "MattBio.html",
+    "title": "Matthew Iacchei - PI",
+    "section": "",
+    "text": "Pic and short history/about\nMatthew J. Iacchei - CV\nHawaii Pacific University\nDepartment of Marine Science\nContact:\nCV here\nPublications\n\n\n Back to top"
+  },
+  {
+    "objectID": "LeilaBio.html",
+    "href": "LeilaBio.html",
+    "title": "Leila Tewahade",
+    "section": "",
+    "text": "Insert Bio"
+  },
+  {
+    "objectID": "LeilaBio.html#about",
+    "href": "LeilaBio.html#about",
+    "title": "Leila Tewahade",
+    "section": "",
+    "text": "Insert Bio"
+  },
+  {
+    "objectID": "LeilaBio.html#contact",
+    "href": "LeilaBio.html#contact",
+    "title": "Leila Tewahade",
+    "section": "Contact",
+    "text": "Contact\nltewahade1@my.hpu.edu\nCV\n\nOther links\nLab Notebook"
+  },
+  {
+    "objectID": "team.html#graduate-students-1",
+    "href": "team.html#graduate-students-1",
+    "title": "Iacchei Lab",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\nJonathan Lin\nAlondra Reyes\n\nSophi Samus"
+  },
+  {
+    "objectID": "team.html#undergraduate-students-1",
+    "href": "team.html#undergraduate-students-1",
+    "title": "Iacchei Lab",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n\n\n\n\nLeila Tewahade\nHikari Bauson"
+  },
+  {
+    "objectID": "team.html#alum-1",
+    "href": "team.html#alum-1",
+    "title": "Iacchei Lab",
+    "section": "Alum",
+    "text": "Alum\n\n\n\nAmelia\nKlara\nNika\n\n\nMylou\nVale\nAspen\n\n\nNan\nSav"
+  },
+  {
+    "objectID": "test.html#principal-investigator",
+    "href": "test.html#principal-investigator",
+    "title": "Team Example",
+    "section": "",
+    "text": "&lt;img src=\"images/matt_002_rev.jpeg\" alt=\"Matthew Iacchei\" width=\"180\" /&gt;\n&lt;h3&gt;&lt;a href=\"MattBio.qmd\"&gt;Matthew Iacchei&lt;/a&gt;&lt;/h3&gt;"
+  },
+  {
+    "objectID": "test.html#graduate-students",
+    "href": "test.html#graduate-students",
+    "title": "Test Team",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n  \n    \n    Jonathan Lin\n    Graduate Student\n  \n  \n    \n    Sophi Samus\n  \n  \n    \n    Alondra Reyes"
+  },
+  {
+    "objectID": "test.html#undergraduate-students",
+    "href": "test.html#undergraduate-students",
+    "title": "Test Team",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n \n  \n    \n    Leila Tewahade\n  \n  \n    \n    Hikari Bauson"
+  },
+  {
+    "objectID": "test.html#alum",
+    "href": "test.html#alum",
+    "title": "Test Team",
+    "section": "",
+    "text": "(Years)\n  \n  \n      \n      \n      \n      (Years)\n    \n  \n    \n    \n    \n    (Years)\n  \n\n \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n    \n\n\n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)"
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Test Team",
+    "section": "",
+    "text": "(Years)\n  \n  \n      \n      \n      \n      (Years)\n    \n  \n    \n    \n    \n    (Years)\n  \n\n \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)\n    \n\n\n  \n    \n    \n    \n    (Years)\n  \n  \n    \n    \n    \n    (Years)"
+  },
+  {
+    "objectID": "LeilaBio.html#biobio",
+    "href": "LeilaBio.html#biobio",
+    "title": "Leila Tewahade",
+    "section": "",
+    "text": "Insert Bio"
+  },
+  {
+    "objectID": "LeilaBio.html#bio",
+    "href": "LeilaBio.html#bio",
+    "title": "Leila Tewahade",
+    "section": "",
+    "text": "Insert Bio"
+  },
+  {
+    "objectID": "JonathanBio.html",
+    "href": "JonathanBio.html",
+    "title": "Jonathan Lin",
+    "section": "",
+    "text": "Bio\nJonathan graduated from the University of California, Santa Cruz (UCSC) with a B.S. in marine biology. During his time at UCSC, he interned for the National Oceanic and Atmospheric Administration (NOAA) Fisheries Ecology Division, researching how ocean conditions influence fecundity in rockfish species. He is currently pursuing his Master of Science in Marine Science at the Hawai‘i Pacific University in the Iacchei lab. Jonathan is interested in analyzing the DNA in gut content of flying fish to understand their diet.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "HikariBio.html",
+    "href": "HikariBio.html",
+    "title": "Hikari Bauson",
+    "section": "",
+    "text": "Hikari is an undergraduate student pursuing a B.S. in Marine Biology with a minor in Music at Hawai‘i Pacific University. She is currently working on extracting and processing DNA from flying fish and their gut content. Hikari is interested in studying marine invertebrates, especially worms in the phylum Annelida for her senior capstone. She hopes to gain more experience in lab settings after graduation and is looking into pursuing a Master’s Degree."
+  },
+  {
+    "objectID": "AlondraBio.html",
+    "href": "AlondraBio.html",
+    "title": "Alondra Reyes",
+    "section": "",
+    "text": "Bio\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "test2.html",
+    "href": "test2.html",
+    "title": "Test Team",
+    "section": "",
+    "text": "Matthew Iacchei"
+  },
+  {
+    "objectID": "test2.html#principal-investigator",
+    "href": "test2.html#principal-investigator",
+    "title": "Test Team",
+    "section": "",
+    "text": "Matthew Iacchei"
+  },
+  {
+    "objectID": "test2.html#graduate-students",
+    "href": "test2.html#graduate-students",
+    "title": "Test Team",
+    "section": "Graduate Students",
+    "text": "Graduate Students\n\n\n\n\nJonathan Lin\nAlondra Reyes\n\nSophi Samus"
+  },
+  {
+    "objectID": "test2.html#undergraduate-students",
+    "href": "test2.html#undergraduate-students",
+    "title": "Test Team",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\n\n\n\n\nLeila Tewahade\nHikari Bauson"
+  },
+  {
+    "objectID": "test2.html#alum",
+    "href": "test2.html#alum",
+    "title": "Test Team",
+    "section": "Alum",
+    "text": "Alum\n\n\n\nAmelia\nKlara\nNika\n\n\nMylou\nVale\nAspen\n\n\nNan\nSav"
+  },
+  {
+    "objectID": "HikariBio.html#bio",
+    "href": "HikariBio.html#bio",
+    "title": "Hikari Bauson",
+    "section": "",
+    "text": "Hikari is an undergraduate student pursuing a B.S. in Marine Biology with a minor in Music at Hawai‘i Pacific University. She is currently working on extracting and processing DNA from flying fish and their gut content. Hikari is interested in studying marine invertebrates, especially worms in the phylum Annelida for her senior capstone. She hopes to gain more experience in lab settings after graduation and is looking into pursuing a Master’s Degree."
+  },
+  {
+    "objectID": "KlaraBio.html",
+    "href": "KlaraBio.html",
+    "title": "Klara Sobotikova",
+    "section": "",
+    "text": "Bio\nKlara graduated from Hawai‘i Pacific University with an M.Sc. in Marine Science in 2025, where she studied the relationship between Pocillopora meandrina (cauliflower coral) and cryptofauna—tiny fish and invertebrates that live between the coral’s branches around Hawai‘i. Her research interests include coral adaptation to increasing ocean temperatures and changing water chemistry, and how knowledge of coral resilience can be applied to future restoration efforts. During her studies, she volunteered at the DAR Hawai‘i Coral Restoration Nursery and assisted with the Ciguatera poisoning project in the Iacchei Lab. She is now pursuing a Ph.D. in Evolution and Marine Biology at the University of Rhode Island under the supervision of Dr. Hollie Putnam, focusing on genetic traits in corals that affect their survival in the changing environment.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "VeronikaBio.html",
+    "href": "VeronikaBio.html",
+    "title": "Veronika Pearson",
+    "section": "",
+    "text": "Veronika graduated from Hawaiʻi Pacific University (HPU) Cum Laude with a B.S. in Marine Biology in 2025. Her research was focused on how toxin producing dinoflagellates varied across the coastal regions of Oahu. Her research utilized spatial analysis and Bayesian modeling of multiple potential environmental drivers on dinoflagellate cell density. After graduating, she continued studying dinoflagellates by working as a research technician to conduct the molecular identification of the dinoflagellate biodiversity sampled on Oahu. She now plans to further her education by pursuing a masters degree."
+  },
+  {
+    "objectID": "VeronikaBio.html#bio",
+    "href": "VeronikaBio.html#bio",
+    "title": "Veronika Pearson",
+    "section": "",
+    "text": "Veronika graduated from Hawaiʻi Pacific University (HPU) Cum Laude with a B.S. in Marine Biology in 2025. Her research was focused on how toxin producing dinoflagellates varied across the coastal regions of Oahu. Her research utilized spatial analysis and Bayesian modeling of multiple potential environmental drivers on dinoflagellate cell density. After graduating, she continued studying dinoflagellates by working as a research technician to conduct the molecular identification of the dinoflagellate biodiversity sampled on Oahu. She now plans to further her education by pursuing a masters degree."
+  },
+  {
+    "objectID": "MylouBio.html",
+    "href": "MylouBio.html",
+    "title": "Mylou Matur",
+    "section": "",
+    "text": "Mylou graduated from Hawaiʻi Pacific University (HPU) Summa Cum Laude with a B.S. in Marine Biology. Her research focus was the influence of environmental conditions on the densities of toxin-producing dinoflagellate species associated with ciguatera poisoning on Oʻahu, Hawaiʻi. She was awarded a grant through the HPU Undergraduate Infrastructure Student Research Center (HUISRC) Health Research Concepts Competition (HRCC), served as an IDeA Networks of Biomedical Research Excellence (INBRE) Student Research Experience Intern/Associate, and her research poster won first prize at the INBRE 2025 Undergraduate Research Symposium. After graduating, she continued studying ciguatera poisoning as a research technician, shifting her focus toward molecular ecology. She now plans to join the Peace Corps as a Water Sanitation and Hygiene Education Facilitator in Peru."
+  },
+  {
+    "objectID": "MylouBio.html#bio",
+    "href": "MylouBio.html#bio",
+    "title": "Mylou Matur",
+    "section": "",
+    "text": "Mylou graduated from Hawaiʻi Pacific University (HPU) Summa Cum Laude with a B.S. in Marine Biology. Her research focus was the influence of environmental conditions on the densities of toxin-producing dinoflagellate species associated with ciguatera poisoning on Oʻahu, Hawaiʻi. She was awarded a grant through the HPU Undergraduate Infrastructure Student Research Center (HUISRC) Health Research Concepts Competition (HRCC), served as an IDeA Networks of Biomedical Research Excellence (INBRE) Student Research Experience Intern/Associate, and her research poster won first prize at the INBRE 2025 Undergraduate Research Symposium. After graduating, she continued studying ciguatera poisoning as a research technician, shifting her focus toward molecular ecology. She now plans to join the Peace Corps as a Water Sanitation and Hygiene Education Facilitator in Peru."
+  }
+]
