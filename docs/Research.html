@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Leila Tewahade – Iacchei Lab</title>
+<title>About – Iacchei Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,84 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style> /* start of CSS */
+
+  /* creates title block in header space */
+  .quarto-title-block {
+    /* removes container constraints */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-left: calc(50% - 50vw);
+    /*continer to flexbox*/
+    display: flex;
+    /*stacks title, subtitle, and description */
+    flex-direction: column;
+    /*centers title, subtitle, and description horizontally and vertically */
+    align-items: center;
+    justify-content: center;
+    /* makes height and width block fixed % of viewport */
+    height: 80vh;
+    width: 100vw;
+    /* centers text inside element */
+    text-align: center;
+    /* removes default spacing */
+    padding: 0;
+    /* makes block relative point for positioning other elements */
+    position: relative;
+    /* background image */
+    background-image: url("images/sample.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* remove padding gap between navbar and header*/
+  body[style*="padding-top"] { padding-top: 0 !important; }
+
+  /* creates psuedo-element (overlay) before block */
+  .quarto-title-block::before {
+    content: "";
+    /* position of overlay over the block */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 40% black overlay */
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+
+  /* selects text */
+  .quarto-title-block .title,
+  .quarto-title-block .subtitle,
+  .quarto-title-block .description {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+
+  /* specific title font preference */
+  .title {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  /* specific subtitle font preference */
+  .subtitle {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-bottom: 0.75rem;
+  }
+
+  /* specific description font preference */
+  .description {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+/* end of CSS */ </style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -102,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Research.html"> 
+    <a class="nav-link active" href="./Research.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -118,55 +196,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#bio" id="toc-bio" class="nav-link active" data-scroll-target="#bio">Bio</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-trestles column-page-left">
-  <div class="about-entity">
-    <img src="images/WebsitePhoto_Tewahade.JPG" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee column-page">
+  <div class="about-image-container">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Leila Tewahade</h1>
+<h1 class="title">About</h1>
 </div>
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
   </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/leilatewahade/Tewahade_LabNotebook.git" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:ltewahade1@my.hpu.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://leilatewahade.github.io/Tewahade_LabNotebook/" class="about-link" rel="" target="">
-    <i class="bi bi-file-person"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="https://leilatewahade.github.io/Tewahade_LabNotebook/" class="about-link" rel="" target="">
-    <i class="bi bi-book"></i>
-     <span class="about-link-text">Lab Notebook</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
-
-<section id="bio" class="level2">
-<h2 data-anchor-id="bio">Bio</h2>
-<p><em>Leila is an undergraduate student at HPU studying Biology.</em></p>
-<p><br></p>
+</header> <main class="content column-page" id="quarto-document-content">
+<section id="section" class="level1">
+<h1></h1>
 
 
 </section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
+  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

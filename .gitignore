@@ -2,4 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-.quarto.Rproj.user/
+.quarto
+.Rproj.user/
+.quarto/

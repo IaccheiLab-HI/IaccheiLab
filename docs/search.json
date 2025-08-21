@@ -67,7 +67,7 @@
     "href": "LeilaBio.html",
     "title": "Leila Tewahade",
     "section": "",
-    "text": "Insert Bio"
+    "text": "Leila is an undergraduate student at HPU studying Biology."
   },
   {
     "objectID": "LeilaBio.html#about",
@@ -151,14 +151,14 @@
     "href": "LeilaBio.html#bio",
     "title": "Leila Tewahade",
     "section": "",
-    "text": "Insert Bio"
+    "text": "Leila is an undergraduate student at HPU studying Biology."
   },
   {
     "objectID": "JonathanBio.html",
     "href": "JonathanBio.html",
     "title": "Jonathan Lin",
     "section": "",
-    "text": "Bio\nJonathan graduated from the University of California, Santa Cruz (UCSC) with a B.S. in marine biology. During his time at UCSC, he interned for the National Oceanic and Atmospheric Administration (NOAA) Fisheries Ecology Division, researching how ocean conditions influence fecundity in rockfish species. He is currently pursuing his Master of Science in Marine Science at the Hawai‘i Pacific University in the Iacchei lab. Jonathan is interested in analyzing the DNA in gut content of flying fish to understand their diet.\n\n\n\n Back to top"
+    "text": "Jonathan graduated from the University of California, Santa Cruz (UCSC) with a B.S. in marine biology. During his time at UCSC, he interned for the National Oceanic and Atmospheric Administration (NOAA) Fisheries Ecology Division, researching how ocean conditions influence fecundity in rockfish species. He is currently pursuing his Master of Science in Marine Science at the Hawai‘i Pacific University in the Iacchei lab. Jonathan is interested in analyzing the DNA in gut content of flying fish to understand their diet.\n\n\n Back to top"
   },
   {
     "objectID": "HikariBio.html",
@@ -257,5 +257,12 @@
     "title": "News",
     "section": "",
     "text": "add news tab\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "About",
+    "section": "",
+    "text": "Back to top"
   }
 ]
