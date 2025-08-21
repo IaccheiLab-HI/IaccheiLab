@@ -6,7 +6,7 @@ about:
   image: images/WebsitePhoto_Samus.jpg
   links: 
     - icon: github
-      text: GtiHub
+      text: GitHub
       href: https://github.com/SophiSamus1
 ---
 

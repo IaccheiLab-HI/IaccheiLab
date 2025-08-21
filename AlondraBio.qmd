@@ -4,7 +4,15 @@ page-layout: full
 
 about:
   template: trestles  
-  image: images/avatar.jpeg
+  image: images/WebsitePhoto_Reyes.jpg
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/alondrareyes20
 ---
 
-# Bio
+Alondra graduated from Hawai‘i Pacific University with a B.S. in marine biology in 2024. As an undergraduate she worked on projects including sorting plankton tows, DNA barcoding mullets, megalops, and lobster phyllosoma samples in the Iacchei lab. She is currently pursuing a Master of Science in Marine Science at HPU. Her research focuses on the early larval stages and dispersal of lobster phyllosoma in the Hawaiian Archipelago. By integrating morphological measurements with DNA barcoding she aims to improve the accuracy of species identification for phyllosoma and reveal spatio-temporal patterns in spiny and slipper lobster species.
+
+\
+
+Contact: [areyes20\@my.hpu.edu](mailto:areyes20@my.hpu.edu) 
