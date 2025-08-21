@@ -105,19 +105,19 @@ about:
 
 <div class="team-grid">
   <div class="team-card">
-    <a href="JonathanBio"><img src="images/WebsitePhoto_Lin.jpeg" alt="Jonathan Lin" ></a>
+    <a href="JonathanBio.qmd"><img src="images/WebsitePhoto_Lin.jpeg" alt="Jonathan Lin" ></a>
     <h3><a href="JonathanBio.qmd">Jonathan Lin</a></h3>
     <h6><a href="JonathanBio.qmd">Graduate Student</a></h6>
   </div>
   
   <div class="team-card">
-    <a href="SophiBio"><img src="images/WebsitePhoto_Samus.jpg" alt="Sophi Samus" ></a>
+    <a href="SophiBio.qmd"><img src="images/WebsitePhoto_Samus.jpg" alt="Sophi Samus" ></a>
     <h3><a href="SophiBio.qmd">Sophi Samus</a></h3>
     <h6><a href="SophiBio.qmd">Graduate Student</a></h6>
   </div>
 
   <div class="team-card">
-    <a href="AlondraBio"><img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" ></a>
+    <a href="AlondraBio.qmd"><img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" ></a>
     <h3><a href="AlondraBio.qmd">Alondra Reyes</a></h3>
     <h6><a href="AlondraBio.qmd">Graduate Student</a></h6>
   </div>
