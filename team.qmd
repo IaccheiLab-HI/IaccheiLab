@@ -97,7 +97,7 @@ about:
 ```{=html}
 
   <div class="team-card">
-    <img src="images/WebsitePhoto_Iacchei.jpeg" alt="Matthew Iacchei" />
+    <a href="MattBio.qmd"><img src="images/WebsitePhoto_Iacchei.jpeg" alt="Matthew Iacchei" ></a>
     <h3><a href="MattBio.qmd">Matthew Iacchei</a></h3>
     <h6><a href="MattBio.qmd">Principal Investigator</a></h6>
   </div>
@@ -105,19 +105,19 @@ about:
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="images/WebsitePhoto_Lin.jpeg" alt="Jonathan Lin" />
+    <a href="JonathanBio"><img src="images/WebsitePhoto_Lin.jpeg" alt="Jonathan Lin" ></a>
     <h3><a href="JonathanBio.qmd">Jonathan Lin</a></h3>
     <h6><a href="JonathanBio.qmd">Graduate Student</a></h6>
   </div>
   
   <div class="team-card">
-    <img src="images/WebsitePhoto_Samus.jpg" alt="Sophi Samus" />
+    <a href="SophiBio"><img src="images/WebsitePhoto_Samus.jpg" alt="Sophi Samus" ></a>
     <h3><a href="SophiBio.qmd">Sophi Samus</a></h3>
     <h6><a href="SophiBio.qmd">Graduate Student</a></h6>
   </div>
 
   <div class="team-card">
-    <img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" />
+    <a href="AlondraBio"><img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" ></a>
     <h3><a href="AlondraBio.qmd">Alondra Reyes</a></h3>
     <h6><a href="AlondraBio.qmd">Graduate Student</a></h6>
   </div>
@@ -222,7 +222,8 @@ about:
 /* start of CSS for formating */
   /* responsive grid layout */
   .team-grid {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 150px;
     margin-top: 1rem;

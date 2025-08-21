@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="meet-our-team" class="level1">
 <h1>Meet Our Team</h1>
   <div class="team-card">
-    <img src="images/WebsitePhoto_Iacchei.jpeg" alt="Matthew Iacchei">
+    <a href="./MattBio.html"><img src="images/WebsitePhoto_Iacchei.jpeg" alt="Matthew Iacchei"></a>
     <h3><a href="./MattBio.html">Matthew Iacchei</a></h3>
     <h6><a href="./MattBio.html">Principal Investigator</a></h6>
   </div>
@@ -224,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
     <h6><a href="./SophiBio.html">Graduate Student</a></h6>
   </div>
   <div class="team-card">
-    <img src="images/WebsitePhoto_Reyes" alt="Alondra Reyes">
+    <img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes">
     <h3><a href="./AlondraBio.html">Alondra Reyes</a></h3>
     <h6><a href="./AlondraBio.html">Graduate Student</a></h6>
   </div>
@@ -310,7 +310,8 @@ ul.task-list li input[type="checkbox"] {
 /* start of CSS for formating */
   /* responsive grid layout */
   .team-grid {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 150px;
     margin-top: 1rem;
