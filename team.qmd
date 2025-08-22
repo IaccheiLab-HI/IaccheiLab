@@ -148,9 +148,9 @@ about:
 <div class="team-grid">
     <div class="team-card">
     <img src="images/avatar.jpeg" alt="Nan" />
-    <h3>Nan</h3>
-    <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <h3>Nan Himmelsbach</h3>
+    <h6>M.S. Marine Science</h6>
+    <h8>2020</h8>
   </div>
  
   <div class="team-card">
