@@ -120,8 +120,8 @@ School starts August 25th! Our second year graduate student, [Alondra Reyes](Alo
 ```{=html}
 <div class="slideshow-gallery">
   <div class="slide active"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
-  <div class="slide"><img src="images/avatar.jpeg" alt="IMG_2947.jpg"></div>
-  <div class="slide"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/SavNanMattPic.jpeg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/AFSpic.jpg" alt="IMG_2947.jpg"></div>
   
   <div class="controls">
     <button id="prev">&#10094;</button>
