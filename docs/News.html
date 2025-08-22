@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,6 +67,84 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style> /* start of CSS */
+
+  /* creates title block in header space */
+  .quarto-title-block {
+    /* removes container constraints */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-left: calc(50% - 50vw);
+    /*continer to flexbox*/
+    display: flex;
+    /*stacks title, subtitle, and description */
+    flex-direction: column;
+    /*centers title, subtitle, and description horizontally and vertically */
+    align-items: center;
+    justify-content: center;
+    /* makes height and width block fixed % of viewport */
+    height: 80vh;
+    width: 100vw;
+    /* centers text inside element */
+    text-align: center;
+    /* removes default spacing */
+    padding: 0;
+    /* makes block relative point for positioning other elements */
+    position: relative;
+    /* background image */
+    background-image: url("images/sample.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* remove padding gap between navbar and header*/
+  body[style*="padding-top"] { padding-top: 0 !important; }
+
+  /* creates psuedo-element (overlay) before block */
+  .quarto-title-block::before {
+    content: "";
+    /* position of overlay over the block */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 40% black overlay */
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+
+  /* selects text */
+  .quarto-title-block .title,
+  .quarto-title-block .subtitle,
+  .quarto-title-block .description {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+
+  /* specific title font preference */
+  .title {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  /* specific subtitle font preference */
+  .subtitle {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-bottom: 0.75rem;
+  }
+
+  /* specific description font preference */
+  .description {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+/* end of CSS */ </style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -116,48 +193,90 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee column-page">
+  <div class="about-image-container">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
+<p class="subtitle lead">What’s new in the Iacchei Lab?</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-title-meta column-page">
   </div>
-  
+</header> <main class="content column-page" id="quarto-document-content">
+<p>Check out the Iacchei Lab on Voice of the Sea!</p>
+<div class="News-grid">
+    <div class="News-card">
+    <img src="images/avatar.jpeg" alt="News">
+    <h3>News</h3>
+    <h6>News</h6>
+    <h8>News</h8>
+  </div>
+</div>
+<!--# formatting -->
+<style> 
+/* start of CSS for formating */
+  /* responsive grid layout */
+  .News-grid {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 150px;
+    margin-top: 1rem;
+  }
+  /* card alignment */
+  .News-card {
+    text-align: center;
+  }
+  /* image formating */
+  .News-card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-top: 1.1rem;
+  }
+  /* heading formating */
+  .News-card h3 {
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+  }
+  .News-card h6 {
+      margin-top: 0.3rem;
+      font-size: 0.9rem;
+      color: grey;
+    }
+  .News-card h8 {
+      margin-top: 0.3rem;
+      font-size: 0.8rem;
+      color: grey;
+    }
+  .News-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .News-card a:hover {
+      text-decoration: none;
+      color: grey;
+    }
+/* end of CSS */
+</style>
 
 
-</header>
-
-
-<p>add news tab</p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
