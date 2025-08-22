@@ -154,10 +154,8 @@ about:
   </div>
  
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Sav" />
-    <h3>Sav</h3>
-    <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <a href="SavannahBio.qmd"><img src="images/WebsitePhoto_Laliberte.jpeg" alt="Sav" /></a>
+    <h3><a href="SavannahBio.qmd">Savannah Laliberte</a></h3>
   </div>
 
   <div class="team-card">
