@@ -11,6 +11,6 @@ about:
       href: mailto:mmatur@my.hpu.edu
 ---
 
-## Bio
-
 Mylou graduated from Hawaiʻi Pacific University (HPU) Summa Cum Laude with a B.S. in Marine Biology. Her research focus was the influence of environmental conditions on the densities of toxin-producing dinoflagellate species associated with ciguatera poisoning on Oʻahu, Hawaiʻi. She was awarded a grant through the HPU Undergraduate Infrastructure Student Research Center (HUISRC) Health Research Concepts Competition (HRCC), served as an IDeA Networks of Biomedical Research Excellence (INBRE) Student Research Experience Intern/Associate, and her research poster won first prize at the INBRE 2025 Undergraduate Research Symposium. After graduating, she continued studying ciguatera poisoning as a research technician, shifting her focus toward molecular ecology. She now plans to join the Peace Corps as a Water Sanitation and Hygiene Education Facilitator in Peru.
+
+Contact: mmatur\@my.hpu.edu

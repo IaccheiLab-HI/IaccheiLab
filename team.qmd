@@ -170,10 +170,10 @@ about:
 
 <div class="team-grid"> 
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Mylou" />
-    <h3>Mylou</h3>
-    <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <a href="MylouBio.qmd"><img src="images/avatar.jpeg" alt="Mylou" /></a>
+    <h3>Mylou Matur</h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
   </div>
 
   <div class="team-card">
