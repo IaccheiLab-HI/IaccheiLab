@@ -39,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-800d58d8a656452b2cf839acf4fa445e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -215,11 +212,6 @@ ul.task-list li input[type="checkbox"] {
 </header> <main class="content column-page" id="quarto-document-content">
 <section id="welcome-to-the-iacchei-lab" class="level1">
 <h1>Welcome to the Iacchei Lab!</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_2947.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/IMG_2947.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="849"></a></p>
-</figure>
-</div>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -239,6 +231,108 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <p><br></p>
 <p><br></p>
+<div class="slideshow-gallery">
+  <div class="slide active"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/avatar.jpeg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
+  <div class="controls">
+    <button id="prev">❮</button>
+    <button id="next">❯</button>
+  </div>
+  <div class="dots">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<style>
+.slideshow-gallery {
+  position: relative;
+  max-width: 1500px;
+  margin: 2rem auto;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.slideshow-gallery .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.slideshow-gallery .slide.active {
+  display: flex;
+}
+.slideshow-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Navigation arrows */
+.slideshow-gallery .controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.slideshow-gallery .controls button {
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: lightgrey;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+.slideshow-gallery .controls button:hover {
+  background: rgba(255,255,255,0.4);
+}
+/* Dots navigation */
+.slideshow-gallery .dots {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.slideshow-gallery .dots span {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  display: inline-block;
+  background: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.slideshow-gallery .dots span.active {
+  background: #fff;
+}
+</style>
+<script>
+const slides = document.querySelectorAll('.slideshow-gallery .slide');
+const dots = document.querySelectorAll('.slideshow-gallery .dots span');
+let index = 0;
+function showSlide(n) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === n);
+    dots[i].classList.toggle('active', i === n);
+  });
+  index = n;
+}
+document.querySelector('.slideshow-gallery #next').onclick = () => {
+  showSlide((index + 1) % slides.length);
+};
+document.querySelector('.slideshow-gallery #prev').onclick = () => {
+  showSlide((index - 1 + slides.length) % slides.length);
+};
+dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
+</script>
 <hr>
 <p>This is a Quarto website.</p>
 <p>To learn more about Quarto websites, visit the <a href="https://quarto.org/docs/websites">official documentation</a>.</p>
@@ -662,38 +756,6 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

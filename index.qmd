@@ -93,8 +93,6 @@ about:
 
 # Welcome to the Iacchei Lab!
 
-![](images/IMG_2947.jpg){.lightbox fig-align="center" width="849"}
-
 +:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:+
 | The Iacchei Lab is an academic research laboratory at Hawai'i Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community. |
 |                                                                                                                                                                                                                                 |
@@ -118,6 +116,126 @@ School starts August 25th! Our second year graduate student, [Alondra Reyes](Alo
 </br>
 
 </br>
+
+```{=html}
+<div class="slideshow-gallery">
+  <div class="slide active"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/avatar.jpeg" alt="IMG_2947.jpg"></div>
+  <div class="slide"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></div>
+  
+  <div class="controls">
+    <button id="prev">&#10094;</button>
+    <button id="next">&#10095;</button>
+  </div>
+
+  <div class="dots">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+```
+
+```{=html}
+<style>
+.slideshow-gallery {
+  position: relative;
+  max-width: 1500px;
+  margin: 2rem auto;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.slideshow-gallery .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-gallery .slide.active {
+  display: flex;
+}
+
+.slideshow-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation arrows */
+.slideshow-gallery .controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.slideshow-gallery .controls button {
+  background: rgba(0,0,0,0.6);
+  border: none;
+  color: lightgrey;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+.slideshow-gallery .controls button:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+/* Dots navigation */
+.slideshow-gallery .dots {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.slideshow-gallery .dots span {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  display: inline-block;
+  background: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.slideshow-gallery .dots span.active {
+  background: #fff;
+}
+</style>
+```
+
+```{=html}
+<script>
+const slides = document.querySelectorAll('.slideshow-gallery .slide');
+const dots = document.querySelectorAll('.slideshow-gallery .dots span');
+let index = 0;
+
+function showSlide(n) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === n);
+    dots[i].classList.toggle('active', i === n);
+  });
+  index = n;
+}
+
+document.querySelector('.slideshow-gallery #next').onclick = () => {
+  showSlide((index + 1) % slides.length);
+};
+document.querySelector('.slideshow-gallery #prev').onclick = () => {
+  showSlide((index - 1 + slides.length) % slides.length);
+};
+dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
+</script>
+```
 
 ------------------------------------------------------------------------
 
