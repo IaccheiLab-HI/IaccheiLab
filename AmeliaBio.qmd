@@ -1,0 +1,15 @@
+---
+title: "Amelia Hart"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Hart.jpg
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:melhart46@gmail.com
+---
+
+Amelia graduated from Hawaiʻi Pacific University (HPU) with a B.S. in Marine Biology in 2025.  During her time as an undergraduate, she worked closely with Iacchei Lab graduate student Sophi Samus on her project studying the response of an endemic Hawaiian limpet (ʻopihi Makaiauli) to heat stress. Based on this experience, Amelia focused her senior capstone research on analyzing the thermal limits and distribution of ʻopihi to understand how climate warming will impact their populations. Amelia plans to continue working with Sophi in her research efforts while also pursuing a career in marine conservation. 
+
+Contact: melhart46\@gmail.com

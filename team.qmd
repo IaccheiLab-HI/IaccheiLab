@@ -147,10 +147,10 @@ about:
 ```{=html}
 <div class="team-grid">
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Amelia" />
-    <h3>Amelia</h3>
-    <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <a href="AmeliaBio.qmd"><img src="images/WebsitePhoto_Hart" alt="Amelia" /></a>
+    <h3><a href="AmeliaBio.qmd">Amelia Hart</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
   </div>
 
   <div class="team-card">
