@@ -125,7 +125,7 @@ about:
 
 <div class="team-grid">  
   <div class="team-card">
-    <img src="images/WebsitePhoto_Bauson.jpg" alt="Hikari Bauson" />
+    <a href="HikariBio.qmd"><img src="images/WebsitePhoto_Bauson.jpg" alt="Hikari Bauson" /></a>
     <h3><a href="HikariBio.qmd">Hikari Bauson</a></h3>
     <h6><a href="HikariBio.qmd">Undergraduate Student</a></h6>
   </div>
