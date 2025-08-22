@@ -147,7 +147,7 @@ about:
 ```{=html}
 <div class="team-grid">
   <div class="team-card">
-    <a href="AmeliaBio.qmd"><img src="images/WebsitePhoto_Hart" alt="Amelia" /></a>
+    <a href="AmeliaBio.qmd"><img src="images/WebsitePhoto_Hart.jpg" alt="Amelia" /></a>
     <h3><a href="AmeliaBio.qmd">Amelia Hart</a></h3>
     <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
@@ -213,6 +213,13 @@ about:
     <h8>(Years)</h8>
   </div>
 </div>
+
+<div class="team-grid">
+  <div class="team-card">
+    <a href="RobertaBio.qmd"><img src="images/WebsitePhoto_Cardenas.jpg" alt="Roberta" /></a>
+    <h3><a href="RobertaBio.qmd">Roberta Cardenas</a></h3>
+    <h6>B.S. Marine Biology</h6>
+  </div>
 ```
 
 <!--# formatting -->
