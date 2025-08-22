@@ -171,7 +171,7 @@ about:
 <div class="team-grid"> 
   <div class="team-card">
     <a href="MylouBio.qmd"><img src="images/avatar.jpeg" alt="Mylou" /></a>
-    <h3>Mylou Matur</h3>
+    <h3><a href="MylouBio.qmd">Mylou Matur</a></h3>
     <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
   </div>
