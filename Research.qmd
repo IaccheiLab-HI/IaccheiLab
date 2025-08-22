@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Research"
 subtitle: ""
 page-layout: full
 editor_options: 
