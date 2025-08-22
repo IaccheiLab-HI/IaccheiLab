@@ -1,6 +1,6 @@
 ---
 title: "Iacchei Lab"
-subtitle: "The Iacchei Lab is an academic research laboratory at Hawai'i Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community."
+subtitle: "Molecular Ecology Lab in Hawai'i"
 page-layout: full
 editor_options: 
   chunk_output_type: inline
@@ -91,19 +91,25 @@ about:
   template: marquee
 ---
 
-# Welcome to the Iacchei Lab
+# Welcome to the Iacchei Lab!
+
++:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:+--------------------------------------------------------------------+
+| The Iacchei Lab is an academic research laboratory at Hawai'i Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community. | ![](images/IMG_2947.jpg){.lightbox fig-align="center" width="476"} |
+|                                                                                                                                                                                                                                 |                                                                    |
+| See what our students are up to [here](team.qmd)                                                                                                                                                                                |                                                                    |
+|                                                                                                                                                                                                                                 |                                                                    |
+| Click [here](News.qmd) to see the Iacchei Lab in the news                                                                                                                                                                       |                                                                    |
+|                                                                                                                                                                                                                                 |                                                                    |
+| Find out more about our research [here](Research.qmd)                                                                                                                                                                           |                                                                    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+
 
 The Iacchei Lab is an academic research laboratory at Hawaii Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.\
 [Click here to find out more.](about.qmd)
 
 </br>
 
-![](images/IMG_2947.jpg){.lightbox fig-align="center"}
-
 ------------------------------------------------------------------------
 
 This is a Quarto website.
 
 To learn more about Quarto websites, visit the [official documentation](https://quarto.org/docs/websites).
-
-\`\`\`{r} 1 + 1
