@@ -161,10 +161,10 @@ about:
     </div>
     
   <div class="team-card">
-    <img src="images/WebsitePhoto_Pearson.jpeg" alt="Veronika" />
-    <h3>Veronika</h3>
-    <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <a href="VeronikaBio.qmd"><img src="images/WebsitePhoto_Pearson.jpeg" alt="Veronika" /></a>
+    <h3><a href="VeronikaBio.qmd">Veronika Pearson</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
   </div>
 </div>
 
