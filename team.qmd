@@ -131,7 +131,7 @@ about:
   </div>
   
   <div class="team-card">
-    <img src="images/WebsitePhoto_Tewahade.JPG" alt="Leila Tewahade" />
+    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Tewahade.JPG" alt="Leila Tewahade" /></a>
     <h3><a href="LeilaBio.qmd">Leila Tewahade</a></h3>
     <h6><a href="LeilaBio.qmd">Undergraduate Student</a></h6>
   </div>
