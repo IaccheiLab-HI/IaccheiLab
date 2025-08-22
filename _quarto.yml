@@ -9,9 +9,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - team.qmd
-      - News.qmd
-      - Research.qmd
+      - href: team.qmd
+        text: Team
+      - href: News.qmd
+        text: News
+      - href: Research.qmd
+        text: Research
     tools: 
       - icon: instagram
         href: https://www.instagram.com/iaccheilab/?next=%2F
