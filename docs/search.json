@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Iacchei Lab",
     "section": "",
-    "text": "Welcome to the Iacchei Lab!\n\n\n\nThe Iacchei Lab is an academic research laboratory at Hawai’i Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.\nSee what our students are up to here\nClick here to see the Iacchei Lab in the news\nFind out more about our research here\n\n\n\n\n\n\nAugust Spotlight\nSchool starts August 25th! Our second year graduate student, Alondra Reyes, presented at the MSMS Student Symposium on August 22nd.\n\n\n\n\n\n  \n  \n  \n  \n    ❮\n    ❯\n  \n  \n    \n    \n    \n  \n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites, visit the official documentation.\n\n\n\n Back to top"
+    "text": "The Iacchei Lab is an academic research laboratory at Hawaii Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community."
   },
   {
     "objectID": "SophiBio.html",
@@ -285,5 +285,12 @@
     "title": "Savannah Laliberte",
     "section": "",
     "text": "After growing up in Pittsburgh Pennsylvania, Savannah moved to Hawai‘i in August of 2015 to pursue a Bachelor’s degree in Marine Biology at Hawaiʻi Pacific University. During her time as an undergraduate at HPU, she was a voluntary laboratory assistant on the Seabird Tissue Archival and Monitoring Project (STAMP), a collaboration between the National Institute of Standards and Technology (NIST) and HPU to investigate environmental contaminants in seabird eggs. In addition to that, she participated in the Our Project in Hawaii’s Intertidal (OPIHI) internship through the University of Hawai‘i, Manoa Campus. During this internship, she used stable isotopes as a tool to examine mullet food web dynamics in Heʻeia Fishpond. \nBuilding upon her work done during the OPIHI internship, she decided to continue her education with HPU’s Master of Science Marine Science Program (MSMS). Her research focused on assessing mullet recruitment on a spatiotemporal scale within Kāne’ohe Bay. Savannah has a passion for conducting science with a purpose that will push the boundaries of scientific knowledge, while also producing results that are directly tangible to local Hawaiian communities and the public. \n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Iacchei Lab",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites, visit the official documentation.\n```{r} 1 + 1"
   }
 ]
