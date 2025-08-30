@@ -32,9 +32,9 @@ include-in-header:
         .slideshow-gallery {
           position: relative;
           width: 100%;
-          margin: .5rem auto;
-          height: 600px;
+          height: 625px;
           overflow: hidden;
+          margin-bottom: -1.5rem
           }
         
         .slideshow-gallery .slide {
@@ -143,19 +143,26 @@ about:
     align-items: center;
     text-align: center;
     }
-
+ 
 .intro h2 {
-  border-bottom: 1px solid #ccc;
-}
-
-.intro p {
-  margin: 1rem;
+  font-size: 2rem;
+  margin-bottom: -0.8rem;
   }
+  
+.hr solid {
+  border-top: 3px solid #bbb;
+  }
+  
+.intro p {
+  margin: 0.5rem;
+  }
+  
 </style>
 
 <!-- html code for intro section -->
 <div class="intro">
   <h2>Welcome to the Iacchei Lab</h2>
+  <hr class="solid">
   <p> The Iacchei Lab is an academic research laboratory at Hawaii Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.</p>
 </div>
 ```
@@ -198,15 +205,15 @@ about:
   </div>
   
   <div class="quicklinks">
-    <div class="desc">See the Iacchei Lab in the news <a href="team.qmd">here</a></div>
-    <a target="_blank" href="team.qmd">
+    <div class="desc">See the Iacchei Lab in the news <a href="News.qmd">here</a></div>
+    <a target="_blank" href="News.qmd">
       <img src="images/IMG_0283.jpg" alt="avatar" width="600" height="400">
     </a>
   </div>
   
   <div class="quicklinks">
-    <div class="desc">Find out more about our research <a href="team.qmd">here</a></div>
-    <a target="_blank" href="team.qmd">
+    <div class="desc">Find out more about our research <a href="Research.qmd">here</a></div>
+    <a target="_blank" href="Research.qmd">
       <img src="images/IMG_0286.jpg" alt="avatar" width="600" height="400">
     </a>
   </div>
@@ -222,12 +229,21 @@ about:
   align-items: center; 
   margin: 2rem auto;
   gap: 2rem;                  /* Space between image and text */
-}
+  }
 
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: -0.8rem;
+  }
+
+.hr solid{
+  border-top: 3px solid #bbb;
+  }
+  
 
 .img_spot {
    min-width: 750px;
-   max-height: 400px;
+   max-height: 550px;
    object-fit: cover;
    object-position: 0px 60%;;
    border-radius: 2px;
@@ -244,6 +260,7 @@ about:
   <img class="img_spot" src="images/IMG_4400.JPG" alt="Alondra MSMS Student Symposium">
   <div class ="subsection">
     <h2>August Spotlight</h2>
+    <hr class="solid">
     <p> School starts August 25th! Our second year graduate student, <a href=AlondraBio.qmd>Alondra Reyes</a>, presented at the MSMS Student Symposium on August 22nd. </p>
     </div>
 </div>
