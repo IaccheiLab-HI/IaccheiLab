@@ -138,9 +138,9 @@ about:
 
 </br>
 
-</br>
-
 ## Alum
+
+</br>
 
 ```{=html}
 <div class="team-grid">
@@ -226,15 +226,17 @@ about:
   /* responsive grid layout */
   .team-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 150px;
-    margin-top: 1rem;
+    gap: 1rem 1rem;
+    margin: 1rem;
   }
   
   /* card alignment */
   .team-card {
     text-align: center;
+    margin: 3rem;
+    margin-top: .2rem;
   }
 
   /* image formating */
@@ -280,16 +282,11 @@ about:
   .alum-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1rem;
-    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem 1rem;
+    margin: 1rem;
   }
 
-  .alum-grid span {
-    background: #f3f3f3;
-    padding: 0.4rem 0.8rem;
-    border-radius: 6px;
-    font-weight: 500;;
-  }
 /* end of CSS */
 </style>
 ```
