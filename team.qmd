@@ -90,8 +90,6 @@ about:
   template: marquee
 ---
 
-![]()
-
 # Meet Our Team
 
 ```{=html}
