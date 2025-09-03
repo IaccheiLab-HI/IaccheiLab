@@ -199,21 +199,21 @@ about:
 <div class="section" >
   <div class="quicklinks">
     <div class="desc">See what our students are up to <a href="team.qmd">here</a></div>
-    <a target="_blank" href="team.qmd">
+    <a href="team.qmd">
       <img src="images/IMG_0285.jpg" alt="avatar" width="600" height="400">
     </a>
   </div>
   
   <div class="quicklinks">
     <div class="desc">See the Iacchei Lab in the news <a href="News.qmd">here</a></div>
-    <a target="_blank" href="News.qmd">
+    <a href="News.qmd">
       <img src="images/IMG_0283.jpg" alt="avatar" width="600" height="400">
     </a>
   </div>
   
   <div class="quicklinks">
     <div class="desc">Find out more about our research <a href="Research.qmd">here</a></div>
-    <a target="_blank" href="Research.qmd">
+    <a href="Research.qmd">
       <img src="images/IMG_0286.jpg" alt="avatar" width="600" height="400">
     </a>
   </div>
