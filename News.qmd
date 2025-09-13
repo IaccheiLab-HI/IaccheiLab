@@ -97,10 +97,6 @@ about:
   box-sizing: border-box;
 }
 
-body {
-  padding: 20px;
-}
-
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -114,6 +110,11 @@ body {
   width: 75%;
 }
 
+.leftcolumn a {
+  text-decoration: none;
+}
+
+
 /* Right column */
 .rightcolumn {
   float: left;
@@ -125,24 +126,32 @@ body {
   margin: 0.1rem;
 }
 
+.rightcolumn a {
+  text-decoration: none;
+}
+
 /* Video */
 .vid {
   background-color: white;
   width: 100%;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
       background: white;
       padding: 1.5rem;
+      padding-top:0.5rem;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       border-color: white;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
+      margin-top: 1rem;
     }
-
+.card hr {
+  margin-top:-.5rem;
+  margin-bottom: 1.5rem;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -159,19 +168,18 @@ body {
 }
 </style>
 
-<head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
 
 <body>
 <div class="header">
   <h1>Iacchei Lab in the News</h1>
+  <hr>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
       <h2>Featured - Voice of the Sea Episode</h2>
+      <hr>
       <h5>Ciguatera Poisoning - August 14, 2025</h5>
       <div class="vid">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3shfklWv-1o?si=QYpgpstQXdC_3Ynz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
@@ -182,8 +190,8 @@ body {
   <div class="rightcolumn">
     <div class="card">
       <h3>Follow Us</h3>
-      <p><a href="https://www.instagram.com/iaccheilab/?next=%2F<i" class="bi bi-instagram">  iaccheilab</a></p>
-      <p><a href="https://github.com/IaccheiLab-HI" class="bi bi-github">  IaccheiLab-HI</a></p>
+      <p><a href="https://www.instagram.com/iaccheilab/?next=%2F<i" class="bi bi-instagram"> iaccheilab</a></p>
+      <p><a href="https://github.com/IaccheiLab-HI" class="bi bi-github"> IaccheiLab-HI</a></p>
     </div>
     <div class="card">
       <h3>Contact</h3>
