@@ -210,65 +210,90 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta column-page">
   </div>
 </header> <main class="content column-page" id="quarto-document-content">
-<p>Check out the Iacchei Lab on Voice of the Sea!</p>
-<div class="News-grid">
-    <div class="News-card">
-    <img src="images/avatar.jpeg" alt="News">
-    <h3>News</h3>
-    <h6>News</h6>
-    <h8>News</h8>
+<style>
+  {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.rightcolumn p {
+  margin: 0.1rem;
+}
+/* Video */
+.vid {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* Add a card effect for articles */
+.card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-color: white;
+      margin-bottom: 2rem;
+    }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<div class="header">
+  <h1>Iacchei Lab in the News</h1>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Featured - Voice of the Sea Episode</h2>
+      <h5>Ciguatera Poisoning - August 14, 2025</h5>
+      <div class="vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3shfklWv-1o?si=QYpgpstQXdC_3Ynz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+      <p>Read more on the <a href="https://seagrant.soest.hawaii.edu/ciguatera-poisoning/">Voice of the Sea Website →</a></p>
+      <p>Watch full episode on <a href="https://www.youtube.com/watch?v=3shfklWv-1o">YouTube →</a></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Follow Us</h3>
+      <p><a href="https://www.instagram.com/iaccheilab/?next=%2F<i" class="bi bi-instagram">  iaccheilab</a></p>
+      <p><a href="https://github.com/IaccheiLab-HI" class="bi bi-github">  IaccheiLab-HI</a></p>
+    </div>
+    <div class="card">
+      <h3>Contact</h3>
+      <p>Contact Info..</p>
+    </div>
   </div>
 </div>
-<!--# formatting -->
-<style> 
-/* start of CSS for formating */
-  /* responsive grid layout */
-  .News-grid {
-    display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 150px;
-    margin-top: 1rem;
-  }
-  /* card alignment */
-  .News-card {
-    text-align: center;
-  }
-  /* image formating */
-  .News-card img {
-    width: 250px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 0%;
-    margin-top: 1.1rem;
-  }
-  /* heading formating */
-  .News-card h3 {
-    margin-top: 0.8rem;
-    font-size: 1.1rem;
-    font-weight: normal;
-    color: black;
-  }
-  .News-card h6 {
-      margin-top: 0.3rem;
-      font-size: 0.9rem;
-      color: grey;
-    }
-  .News-card h8 {
-      margin-top: 0.3rem;
-      font-size: 0.8rem;
-      color: grey;
-    }
-  .News-card a {
-    text-decoration: none;
-    color: inherit;
-  }
-  .News-card a:hover {
-      text-decoration: none;
-      color: grey;
-    }
-/* end of CSS */
-</style>
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
