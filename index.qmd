@@ -191,7 +191,12 @@ about:
    padding: 15px;
    text-align: center;
 }
-  
+  .section a {
+    text-decoration: none;
+  }
+  .section a:hover {
+    text-decoration: underline;
+  }
 </style>
 
 
@@ -265,11 +270,3 @@ about:
     </div>
 </div>
 ```
-
-## </br>
-
-This is a Quarto website.
-
-To learn more about Quarto websites, visit the [official documentation](https://quarto.org/docs/websites).
-
-\`\`\`{r} 1 + 1

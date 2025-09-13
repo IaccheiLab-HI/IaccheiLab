@@ -291,6 +291,12 @@ dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
    padding: 15px;
    text-align: center;
 }
+  .section a {
+    text-decoration: none;
+  }
+  .section a:hover {
+    text-decoration: underline;
+  }
 </style>
 <!-- embedded html code for links to other pages gallery -->
 <div class="section">
@@ -348,14 +354,8 @@ dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
     <p> School starts August 25th! Our second year graduate student, <a href="./AlondraBio.html">Alondra Reyes</a>, presented at the MSMS Student Symposium on August 22nd. </p>
     </div>
 </div>
-<section id="section" class="level2">
-<h2 data-anchor-id="section"><br></h2>
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites, visit the <a href="https://quarto.org/docs/websites">official documentation</a>.</p>
-<p>```{r} 1 + 1</p>
 
 
-</section>
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
   </div>
 </div>
@@ -756,7 +756,13 @@ dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org/docs/websites">
+<p>This is a Quarto website. To learn more about Quarto websites, visit official documentation.</p>
+</a>
+  </li>  
+</ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;

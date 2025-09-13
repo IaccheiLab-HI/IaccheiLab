@@ -23,6 +23,10 @@ website:
   back-to-top-navigation: true
   page-footer: 
     background: light
+    left:
+    - text: This is a Quarto website. To learn more about Quarto websites, visit official documentation.
+      href: https://quarto.org/docs/websites
+    
     right: 
       - icon: instagram
         href: https://www.instagram.com/iaccheilab/?next=%2F
