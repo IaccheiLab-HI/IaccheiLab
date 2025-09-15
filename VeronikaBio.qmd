@@ -12,6 +12,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:veronikapearson1@gmail.com
+    - icon: file-person
+      text: CV
+      href: https://github.com/IaccheiLab-HI/IaccheiLab/blob/main/CV_Pearson_June2025.pdf
 ---
 
 Veronika graduated from Hawaiʻi Pacific University (HPU) Cum Laude with a B.S. in Marine Biology in 2025. Her research was focused on how toxin producing dinoflagellates varied across the coastal regions of Oahu. Her research utilized spatial analysis and Bayesian modeling of multiple potential environmental drivers on dinoflagellate cell density. After graduating, she continued studying dinoflagellates by working as a research technician to conduct the molecular identification of the dinoflagellate biodiversity sampled on Oahu. She now plans to further her education by pursuing a masters degree. 
