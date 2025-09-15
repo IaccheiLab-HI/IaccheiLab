@@ -16,7 +16,7 @@ about:
       href: https://sophisamus1.github.io/Samus_Lab_Notebook/
     - icon: file-person
       text: CV
-      href: documents/CV_Samus.pdf
+      href: https://github.com/IaccheiLab-HI/IaccheiLab.git/CV_Samus.pdf
 ---
 
 Sophi graduated from Hawai‘i Pacific University with a B.S. in marine biology where she worked on a number of projects including barcoding lobster phyllosoma samples and sorting plankton tows. She is now in the Master of Science in Marine Science (MSMS) program at HPU in the Iacchei lab. Sophi is primarily interested in the evolutionary impacts of climate change on intertidal invertebrates. Her thesis will investigate differential gene expression between endemic Hawaiian limpets (‘opihi) in normal and stressed conditions. After she graduates, she plans to pursue a PhD in marine ecology, furthering her masters research.
