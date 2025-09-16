@@ -17,6 +17,7 @@ website:
         text: Research
       - href: Gallery.qmd
         text: Gallery
+    
     tools: 
       - icon: instagram
         href: https://www.instagram.com/iaccheilab/?next=%2F
