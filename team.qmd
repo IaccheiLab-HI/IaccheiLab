@@ -192,21 +192,21 @@ about:
     <img src="images/avatar.jpeg" alt="Diya" />
     <h3>Diya</h3>
     <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <h8>2025</h8>
   </div>
   
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Vale" />
     <h3>Vale</h3>
     <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <h8>2025</h8>
   </div>
  
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Aspen" />
     <h3>Aspen</h3>
     <h6>TITLE</h6>
-    <h8>(Years)</h8>
+    <h8>2025</h8>
     </div>
 </div>
 
