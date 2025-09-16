@@ -204,7 +204,7 @@ button:hover{
 <body>
 <div class="row">
   <div class="leftcolumn">
-    <h2>Photos</h2>
+    <h2>Photos - 2025</h2>
     <hr>
     <div class="gallery">
       <div class="item">
