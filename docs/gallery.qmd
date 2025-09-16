@@ -1,0 +1,226 @@
+---
+title: "Gallery"
+subtitle: ""
+page-layout: full
+editor_options: 
+  chunk_output_type: inline
+toc: false
+format:
+  html:
+    anchor-sections: false  
+
+include-in-header:
+  - text: |
+      <style> /* start of CSS */
+       
+        /* creates title block in header space */
+        .quarto-title-block { 
+          /* removes container constraints */
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+          margin-left: calc(50% - 50vw); 
+          /*continer to flexbox*/
+          display: flex; 
+          /*stacks title, subtitle, and description */
+          flex-direction: column; 
+          /*centers title, subtitle, and description horizontally and vertically */
+          align-items: center; 
+          justify-content: center; 
+          /* makes height and width block fixed % of viewport */
+          height: 80vh; 
+          width: 100vw;
+          /* centers text inside element */
+          text-align: center; 
+          /* removes default spacing */
+          padding: 0; 
+          /* makes block relative point for positioning other elements */
+          position: relative; 
+          /* background image */
+          background-image: url("images/sample.png");
+          background-size: cover; 
+          background-position: center; 
+          background-repeat: no-repeat; 
+        }
+        
+        /* remove padding gap between navbar and header*/
+        body[style*="padding-top"] { padding-top: 0 !important; }
+        
+        /* creates psuedo-element (overlay) before block */
+        .quarto-title-block::before { 
+          content: ""; 
+          /* position of overlay over the block */
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; 
+          /* 40% black overlay */
+          background: rgba(0, 0, 0, 0.4); 
+          z-index: 0;
+        }
+        
+        /* selects text */
+        .quarto-title-block .title,
+        .quarto-title-block .subtitle,
+        .quarto-title-block .description { 
+          position: relative; 
+          z-index: 1; 
+          color: white; 
+        }
+        
+        /* specific title font preference */
+        .title { 
+          font-size: clamp(2.5rem, 5vw, 5rem); 
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+        
+        /* specific subtitle font preference */
+        .subtitle {
+          font-size: clamp(1rem, 2vw, 1.5rem); 
+          margin-bottom: 0.75rem;
+        }
+        
+        /* specific description font preference */
+        .description {
+          font-size: clamp(0.9rem, 1.5vw, 1.2rem); 
+          max-width: 600px;
+          margin: 0 auto; 
+        }
+      /* end of CSS */ </style>
+      
+about: 
+  template: marquee
+---
+
+```{=html}
+<style>
+  {
+  box-sizing: border-box;
+}
+
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 90%;
+}
+
+.leftcolumn a {
+  text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 15rem;
+  grid-auto-flow: dense;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.gallery item {
+  container: figure / inline-size;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+}
+
+.gallery img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  grid-area: 1 / 1 / -1 / -1;
+  transition: scale 1s ease-in-out;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 10%;
+  padding-left: 2rem;
+  margin-top:1.5rem;
+}
+
+.rightcolumn navigation {
+  display: inline-block;
+  position: relative;
+}
+
+button{
+  border:none;
+  border-radius:5px;
+  margin-top: 0.3rem;
+  padding:13px 35px;
+  font-size: 1rem;
+  cursor:pointer;
+  background-color:#333;
+  font-weight: normal;
+  color:white;
+  
+}
+
+button:hover{
+  background-color:#ddd;
+}
+
+.years {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.navigation:hover .years {
+  display: block;
+}
+
+.years a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.years a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+</style>
+
+<!--information section and page title--> 
+
+<body>
+<div class="row">
+  <div class="leftcolumn">
+    <h2>Photos</h2>
+    <hr>
+    <div class="gallery">
+      <div class="item">
+        <img src="images/IMG_4400.JPG">
+      </div>
+      <div class="item">
+        <img src="images/IMG_4400.JPG">
+      </div>
+      <div class="item">
+        <img src="images/IMG_4400.JPG">
+      </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="navigation">
+      <button>Years</button>
+      <div class="years">
+        <a href="Gallery.qmd">2025</a>
+        <a href="gallery2024.qmd">2024</a>
+      </div>
+    </div>
+  </div>
+```
