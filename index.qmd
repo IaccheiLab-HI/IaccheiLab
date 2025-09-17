@@ -125,7 +125,7 @@ include-in-header:
       // Automatic slideshow functionality
       const slideInterval = setInterval(() => {
           showSlide((index + 1) % slides.length);
-      }, 4000); // Change 3000 to adjust the slide transition speed in milliseconds (e.g., 5000 for 5 seconds)
+      }, 3000); // Change 3000 to adjust the slide transition speed in milliseconds (e.g., 5000 for 5 seconds)
       
       // If dot navigation is also to be removed, delete the following block:
       dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
@@ -264,9 +264,9 @@ about:
 <div class="section">
   <img class="img_spot" src="images/IMG_4400.JPG" alt="Alondra MSMS Student Symposium">
   <div class ="subsection">
-    <h2>August Spotlight</h2>
+    <h2>Spotlight</h2>
     <hr class="solid">
-    <p> School starts August 25th! Our second year graduate student, <a href=AlondraBio.qmd>Alondra Reyes</a>, presented at the MSMS Student Symposium on August 22nd. </p>
+    <p> School started August 25th! Our second year graduate student, <a href=AlondraBio.qmd>Alondra Reyes</a>, presented at the MSMS Student Symposium on August 22nd. </p>
     </div>
 </div>
 ```

@@ -190,14 +190,14 @@ about:
 <div class="team-grid">
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Diya" />
-    <h3>Diya Reddy Koukutla</h3>
+    <h3>Diya Reddy</h3>
     <h6>TITLE</h6>
     <h8>2025</h8>
   </div>
   
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Vale" />
-    <h3>Valentina Salgado Montanez</h3>
+    <h3>Valentina Salgado</h3>
     <h6>TITLE</h6>
     <h8>2025</h8>
   </div>
