@@ -1,0 +1,24 @@
+---
+title: "Irie" 
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/avatar.jpeg
+  links: 
+    - icon: github
+      text: GitHub
+      href: 
+    - icon: envelope
+      text: Email
+      href: 
+    - icon: file-person
+      text: CV
+      href: 
+---
+
+## Bio
+
+*bio entry*
+
+<br />
