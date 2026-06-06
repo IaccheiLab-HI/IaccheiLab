@@ -115,9 +115,9 @@ about:
   </div>
   
    <div class="team-card">
-    <a href=""><img src="images/avatar.jpeg" alt="Irie" ></a>
-    <h3><a href="">Irie</a></h3>
-    <h6><a href="">Graduate Student</a></h6>
+    <a href="IrieBio.qmd"><img src="images/avatar.jpeg" alt="Irie" ></a>
+    <h3><a href="IrieBio.qmd">Irie</a></h3>
+    <h6><a href="IrieBio.qmd">Graduate Student</a></h6>
   </div>
 </div>
 ```
