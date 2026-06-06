@@ -1,20 +1,11 @@
 ---
-title: "Irie" 
+title: "Irie Baniqued" 
 page-layout: full
 
 about:
   template: trestles  
   image: images/avatar.jpeg
   links: 
-    - icon: github
-      text: GitHub
-      href: 
-    - icon: envelope
-      text: Email
-      href: 
-    - icon: file-person
-      text: CV
-      href: 
 ---
 
 ## Bio
