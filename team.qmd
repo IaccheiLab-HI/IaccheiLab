@@ -120,20 +120,6 @@ about:
     <h6><a href="AlondraBio.qmd">Graduate Student</a></h6>
   </div>
 </div>
-
-<div class="team-grid">  
-  <div class="team-card">
-    <a href="HikariBio.qmd"><img src="images/WebsitePhoto_Bauson.jpg" alt="Hikari Bauson" /></a>
-    <h3><a href="HikariBio.qmd">Hikari Bauson</a></h3>
-    <h6><a href="HikariBio.qmd">Undergraduate Student</a></h6>
-  </div>
-  
-  <div class="team-card">
-    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Tewahade.JPG" alt="Leila Tewahade" /></a>
-    <h3><a href="LeilaBio.qmd">Leila Tewahade</a></h3>
-    <h6><a href="LeilaBio.qmd">Undergraduate Student</a></h6>
-  </div>
-</div>
 ```
 
 </br>
@@ -215,6 +201,20 @@ about:
     <a href="RobertaBio.qmd"><img src="images/WebsitePhoto_Cardenas.jpg" alt="Roberta" /></a>
     <h3><a href="RobertaBio.qmd">Roberta Cardenas</a></h3>
     <h6>B.S. Marine Biology</h6>
+  </div>
+
+  <div class="team-card">
+    <a href="HikariBio.qmd"><img src="images/WebsitePhoto_Bauson.jpg" alt="Hikari Bauson" /></a>
+    <h3><a href="HikariBio.qmd">Hikari Bauson</a></h3>
+    <h6><a href="HikariBio.qmd">Undergraduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Tewahade.JPG" alt="Leila Tewahade" /></a>
+    <h3><a href="LeilaBio.qmd">Leila Tewahade</a></h3>
+    <h6><a href="LeilaBio.qmd">Undergraduate Student</a></h6>
+  </div>
+
   </div>
 ```
 
