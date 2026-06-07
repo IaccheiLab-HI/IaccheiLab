@@ -195,7 +195,7 @@ button:hover{
     <hr>
     <div class="gallery">
       <div class="item">
-        <img src="images/EwaBeachIntertidaling-Limu01.jpg">
+        <a href="images/EwaBeachIntertidaling-Limu01.jpg"><img src="images/EwaBeachIntertidaling-Limu01.jpg" alt="Alondra Reyes" ></a>
       </div>
       <div class="item">
         <img src="images/EwaBeachIntertidaling-03.jpg">
