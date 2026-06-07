@@ -1,10 +1,10 @@
 ---
-title: "Leila Tewahade" 
+title: "Irie Baniqued" 
 page-layout: full
 
 about:
   template: trestles  
-  image: images/WebsitePhoto_Tewahade.JPG
+  image: images/avatar.jpeg
   links: 
     - icon: github
       text: GitHub
