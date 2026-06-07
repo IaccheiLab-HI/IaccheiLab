@@ -1,0 +1,14 @@
+---
+title: "Kaylee Tanig" 
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/avatar.jpeg
+---
+
+## Bio
+
+*bio entry*
+
+<br />
