@@ -192,7 +192,7 @@ about:
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Vale" />
     <h3>Valentina Salgado</h3>
-    <h6>TITLE</h6>
+    <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
   </div>
 </div>
@@ -201,7 +201,7 @@ about:
   <div class="team-card">
     <img src="images/avatar.jpeg" alt="Aspen" />
     <h3>Aspen Pawlowski</h3>
-    <h6>TITLE</h6>
+    <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
     </div>
     
