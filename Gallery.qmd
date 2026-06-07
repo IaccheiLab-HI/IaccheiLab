@@ -210,39 +210,39 @@ button:hover{
         <a href="images/IMG_4400.JPG"><img src="images/IMG_4400.JPG" alt="IMG_4400.JPG" ></a>
       </div>
       <div class="item">
-        <a href= "images/20250625_165711.jpg"><img src="images/20250625_165711.jpg" alt="20250625_165711.jpg"</a>
+        <a href= "images/20250625_165711.jpg"><img src="images/20250625_165711.jpg" alt="20250625_165711.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250414_133828.jpg"><img src="images/20250414_133828.jpg" alt="20250414_133828.jpg"</a>
+        <a href= "images/20250414_133828.jpg"><img src="images/20250414_133828.jpg" alt="20250414_133828.jpg"></a>
       </div><div class="item">
-        <a href= "images/20250414_112336.jpg"><img src="images/20250414_112336.jpg" alt="20250414_112336.jpg"</a>
+        <a href= "images/20250414_112336.jpg"><img src="images/20250414_112336.jpg" alt="20250414_112336.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250414_112230.jpg"><img src="images/20250414_112230.jpg" alt="20250414_112230.jpg"</a>
+        <a href= "images/20250414_112230.jpg"><img src="images/20250414_112230.jpg" alt="20250414_112230.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250414_102933.jpg"><img src="images/20250414_102933.jpg" alt="20250414_102933.jpg"</a>
+        <a href= "images/20250414_102933.jpg"><img src="images/20250414_102933.jpg" alt="20250414_102933.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250414_100534.jpg"><img src="images/20250414_100534.jpg" alt="20250414_100534.jpg"</a>
+        <a href= "images/20250414_100534.jpg"><img src="images/20250414_100534.jpg" alt="20250414_100534.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250414_100529.jpg"><img src="images/20250414_100529.jpg" alt="20250414_100529.jpg"</a>
+        <a href= "images/20250414_100529.jpg"><img src="images/20250414_100529.jpg" alt="20250414_100529.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250325_145723.jpg"><img src="images/20250325_145723.jpg" alt="20250325_145723.jpg"</a>
+        <a href= "images/20250325_145723.jpg"><img src="images/20250325_145723.jpg" alt="20250325_145723.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/20250325_133156.jpg"><img src="images/20250325_133156.jpg" alt="20250325_133156.jpg"</a>
+        <a href= "images/20250325_133156.jpg"><img src="images/20250325_133156.jpg" alt="20250325_133156.jpg"></a>
       </div>
       <div class="item">
-         <a href= "images/20241030_181427.jpg"><img src="images/20241030_181427.jpg" alt="20241030_181427.jpg"</a>
+         <a href= "images/20241030_181427.jpg"><img src="images/20241030_181427.jpg" alt="20241030_181427.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/AFSpic.jpg"><img src="images/AFSpic.jpg" alt="AFSpic.jpg"</a>
+        <a href= "images/AFSpic.jpg"><img src="images/AFSpic.jpg" alt="AFSpic.jpg"></a>
       </div>
       <div class="item">
-        <a href= "images/IMG_2947.jpg"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"</a>
+        <a href= "images/IMG_2947.jpg"><img src="images/IMG_2947.jpg" alt="IMG_2947.jpg"></a>
       </div>
     </div>
   </div>
