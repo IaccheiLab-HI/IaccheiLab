@@ -104,7 +104,7 @@ about:
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 90%;
+  width: 100%;
 }
 
 .leftcolumn a {
