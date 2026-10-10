@@ -132,21 +132,15 @@ about:
     <h6><a href="CortneyBio.qmd">Graduate Student</a></h6>
   </div>
 </div>
-
-<div class="team-grid">
-  <div class="team-card">
-    <a href="KayleeBio.qmd"><img src="images/WebsitePhoto_Tanig.png"" alt="Kaylee Tanig" ></a>
-    <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>
-    <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>
-  </div>
-  
-  <div class="team-card">
-    <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpeg" alt="Emily Bandalos" ></a>
-    <h3><a href="EmilyBio.qmd">Emily Bandalos</a></h3>
-    <h6><a href="EmilyBio.qmd">Undergraduate Student</a></h6>
-  </div>
-</div>
 ```
+
+</br>
+
+## Undergraduate Students
+
+</br>
+
+`<div class="team-grid">   <div class="team-card">     <a href="KayleeBio.qmd"><img src="images/WebsitePhoto_Tanig.png"" alt="Kaylee Tanig" ></a>     <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>     <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>   </div>      <div class="team-card">     <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpeg" alt="Emily Bandalos" ></a>     <h3><a href="EmilyBio.qmd">Emily Bandalos</a></h3>     <h6><a href="EmilyBio.qmd">Undergraduate Student</a></h6>   </div> </div>`{=html}
 
 </br>
 

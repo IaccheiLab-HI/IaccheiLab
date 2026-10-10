@@ -45,8 +45,8 @@
     "objectID": "team.html#undergraduate-students",
     "href": "team.html#undergraduate-students",
     "title": "Team",
-    "section": "Undergraduate Students",
-    "text": "Undergraduate Students\n\n\n\n\nLeila Tewahade\nHikari Bauson"
+    "section": "",
+    "text": "&lt;div class=\"team-grid\"&gt;\n  &lt;div class=\"team-card\"&gt;\n    &lt;a href=\"KayleeBio.qmd\"&gt;&lt;img src=\"images/WebsitePhoto_Tanig.png\"\" alt=\"Kaylee Tanig\" &gt;&lt;/a&gt;\n    &lt;h3&gt;&lt;a href=\"KayleeBio.qmd\"&gt;Kaylee Tanig&lt;/a&gt;&lt;/h3&gt;\n    &lt;h6&gt;&lt;a href=\"KayleeBio.qmd\"&gt;Undergraduate Student&lt;/a&gt;&lt;/h6&gt;\n  &lt;/div&gt;\n  \n  &lt;div class=\"team-card\"&gt;\n    &lt;a href=\"EmilyBio.qmd\"&gt;&lt;img src=\"images/WebsitePhoto_Bandalos.jpeg\" alt=\"Emily Bandalos\" &gt;&lt;/a&gt;\n    &lt;h3&gt;&lt;a href=\"EmilyBio.qmd\"&gt;Emily Bandalos&lt;/a&gt;&lt;/h3&gt;\n    &lt;h6&gt;&lt;a href=\"EmilyBio.qmd\"&gt;Undergraduate Student&lt;/a&gt;&lt;/h6&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "team.html#alum",
