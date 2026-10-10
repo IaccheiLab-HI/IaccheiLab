@@ -1,0 +1,16 @@
+---
+title: "Nan Himmelsbach"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Himmelsbach.jpeg
+  links: 
+    - icon: book
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Nan-Himmelsbach
+    - icon: envelope
+      text: Email
+      href: mailto:nan.himmelsbach@gmail.com
+---
+
+Nan is interested in understanding how changing ocean conditions impact the trophic ecology of large pelagic fishes. She is also passionate about the use of molecular methods to assess digested stomach contents. In 2021, she graduated from Hawaiʻi Pacific University with her M.S. in marine science where she studied the diet of bigeye and smalleye opah collected in the deep-set tuna longline fishery using DNA metabarcoding. Following her time in the Iacchei Lab, she worked at the Cooperative Institute of Marine and Atmospheric Research (CIMAR) in conjunction with NOAA’s Pacific Islands Fisheries Science Center. While there, she studied the diet of mahimahi caught around Oʻahu using DNA barcoding. The diet of this population was used to inform the essential fish habitat of mahimahi in this region, and illustrated the linkage between the nearshore coral reef environment and the open-ocean pelagic environment. Currently, she is a PhD student in Dr. Justin Suca’s lab at the University of Hawaiʻi at Mānoa where she is exploring the diet of bigeye tuna, mahimahi, and swordfish caught in the deep-set tuna longline fishery using a modified DNA metabarcoding approach. These diet data, along with catch composition, will be combined with in situ depth and temperature data, and assessed over a variety of mesoscale features and ocean conditions.
