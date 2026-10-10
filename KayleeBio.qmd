@@ -3,7 +3,7 @@ title: "Kaylee Tanig"
 page-layout: full
 about: 
   template: trestles
-  image: images/WebsitePhoto_Tanig.jpeg
+  image: images/WebsitePhoto_Tanig.png
   links:
     - icon: envelope
       text: Email
