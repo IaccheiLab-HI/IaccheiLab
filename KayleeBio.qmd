@@ -1,14 +1,13 @@
 ---
-title: "Kaylee Tanig" 
+title: "Kaylee Tanig"
 page-layout: full
-
-about:
-  template: trestles  
-  image: images/avatar.jpeg
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Tanig.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ktanig1@my.hpu.edu
 ---
 
-## Bio
-
-*bio entry*
-
-<br />
+Kaylee is getting her undergraduate at Hawai‘i Pacific University in Marine Biology with a minor in Computer Science. Her research is focusing on detecting ciguatoxin in environmentally sampled reef fish around Oahu to inform the local community and prevent ciguatera fish poisoning. Her research uses LC/MS to detect and quantitate different toxins produced by Gambierdiscus spp. and in fish tissue. She hopes to follow a career in research using natural marine products in medical research.
