@@ -194,7 +194,7 @@ about:
   </div>
 </div>
 
-<h2>Monitoring ecological communities across space and time, to understand how they are responding to environmental change and other anthropogenic impacts</h2>
+<h2>Monitoring ecological communities across space and time to understand how they are responding to environmental change and other anthropogenic impacts</h2>
 <hr>
 <div class="section two-col b">
   <div>
