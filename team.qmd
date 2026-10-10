@@ -126,6 +126,25 @@ about:
     <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>
     <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>
   </div>
+  
+  <div class="team-card">
+    <a href="LianaBio.qmd"><img src="images/WebsitePhoto_Gaspar.jpg" alt="Liana Gaspar" ></a>
+    <h3><a href="LianaBio.qmd">Liana Samus</a></h3>
+    <h6><a href="LianaBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="CortneyBio.qmd"><img src="images/WebsitePhoto_Deterding.jpg" alt="Cortney Deterding" ></a>
+    <h3><a href="CortneyBio.qmd">Cortney Deterding</a></h3>
+    <h6><a href="CortneyBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpg" alt="Emily Bandalos" ></a>
+    <h3><a href="EmilyBio.qmd">Sophi Samus</a></h3>
+    <h6><a href="EmilyBio.qmd">Graduate Student</a></h6>
+  </div>
+</div>
 ```
 
 </br>
