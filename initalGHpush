@@ -1,0 +1,5 @@
+git remote add myorigin https://github.com/IaccheiLab-HI/IaccheiLab.git
+git branch -M main
+git add --all
+git commit -m "initial commit"
+git push -u myorigin main

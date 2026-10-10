@@ -1,0 +1,16 @@
+---
+title: "Roberta Cardenas"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Cardenas.jpg
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:rocar6439@uit.no
+---
+
+Roberta graduated from Hawaiʻi Pacific University with a B.S. in Marine Biology where she worked in the Iacchei lab. Her capstone project focused on DNA barcoding of megalops larvae from West Hawaii to understand patterns in larval recruitment. She is now pursuing a Master’s in Biology, focusing on Arctic Marine Ecology, at the Arctic University of Norway (UiT). Her thesis will focus on how climate change potentially impacts trophic interactions between Calanus spp. copepods and the spring phytoplankton bloom in Kongsfjorden, Svalbard. After she graduates, she hopes to continue her education by pursuing a PhD in marine ecology. 
+
+\
+Contact: rocar6439\@uit.no

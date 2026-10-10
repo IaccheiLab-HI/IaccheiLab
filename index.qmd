@@ -1,0 +1,272 @@
+---
+title: ""
+subtitle: ""
+page-layout: full
+editor_options: 
+  chunk_output_type: inline
+toc: false
+
+include-in-header:
+  - text: |
+      <div class="slideshow-gallery">
+        <div class="slide active">
+          <img src="images/IMG_2947.jpg" alt="IMG_2947.jpg">
+          <div class="slide-text"><h3>Iacchei Lab</h3><p>Molecular Ecology Lab in Hawai'i</p></div>
+        </div>
+        <div class="slide">
+          <img src="images/SavNanMattPic.jpeg" alt="SavNanMattPic.jpeg">
+          <div class="slide-text"><h3>Iacchei Lab</h3><p>Molecular Ecology Lab in Hawai'i</p></div>
+        </div>
+        <div class="slide">
+          <img src="images/AFSpic.jpg" alt="AFSpic.jpg">
+          <div class="slide-text"><h3>Iacchei Lab</h3><p>Molecular Ecology Lab in Hawai'i</p></div>
+        </div>
+        <div class="dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      
+      <style>
+        .slideshow-gallery {
+          position: relative;
+          width: 100%;
+          height: 625px;
+          overflow: hidden;
+          margin-bottom: -1.5rem
+          }
+        
+        .slideshow-gallery .slide {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          }
+        
+        .slideshow-gallery .slide.active {
+          display: flex;
+          }
+        
+        .slideshow-gallery img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          }
+        
+        /* Dots navigation */
+          .slideshow-gallery .dots {
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+            text-align: center;
+            z-index: 2;
+            }
+            
+          .slideshow-gallery .dots span {
+            height: 12px;
+            width: 12px;
+            margin: 0 5px;
+            display: inline-block;
+            background: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+            }
+            
+          .slideshow-gallery .dots span.active {
+            background: #fff;
+            }
+        
+          .slideshow-gallery .slide-text {
+            position: absolute;
+            width: 100%;
+            height:100%;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            }
+            
+          .slideshow-gallery h3 {
+          font-size: clamp(2.5rem, 5vw, 5rem); 
+          font-weight: bold;
+          margin-top:13rem;
+          margin-bottom: 0.2rem;
+          }
+          
+          .slideshow-gallery p {
+          font-size: clamp(1rem, 2vw, 1.5rem);   
+          }
+            
+      </style>      
+      
+      <script>
+      const slides = document.querySelectorAll('.slideshow-gallery .slide');
+      const dots = document.querySelectorAll('.slideshow-gallery .dots span');
+      let index = 0;
+      
+      function showSlide(n) {
+          slides.forEach((slide, i) => {
+              slide.classList.toggle('active', i === n);
+              // If dots are still desired, keep this line:
+              dots[i].classList.toggle('active', i === n);
+          });
+          index = n;
+      }
+      
+      // Initial display of the first slide
+      showSlide(index);
+      
+      // Automatic slideshow functionality
+      const slideInterval = setInterval(() => {
+          showSlide((index + 1) % slides.length);
+      }, 3000); // Change 3000 to adjust the slide transition speed in milliseconds (e.g., 5000 for 5 seconds)
+      
+      // If dot navigation is also to be removed, delete the following block:
+      dots.forEach((dot, i) => dot.onclick = () => showSlide(i));
+      </script>
+      
+about: 
+  template: marquee
+---
+
+```{=html}
+<!-- css formatting for intro section -->
+<style>
+.intro {
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    }
+ 
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: -0.8rem;
+  }
+  
+.hr solid {
+  border-top: 3px solid #bbb;
+  }
+  
+.intro p {
+  margin: 0.5rem;
+  }
+  
+</style>
+
+<!-- html code for intro section -->
+<div class="intro">
+  <h2>Welcome to the Iacchei Lab</h2>
+  <hr class="solid">
+  <p> The Iacchei Lab is an academic research laboratory at Hawaii Pacific University. Our lab uses a combination of field and molecular techniques to answer conservation and fisheries questions important to our local community.</p>
+</div>
+```
+
+```{=html}
+<!-- css formatting for links to other pages gallery -->
+<style>
+ .quicklinks {
+  margin: 5px;
+  width: 500px;
+ }
+  
+  .quicklinks:hover {
+    scale: 105%;
+}
+
+  .quicklinks img {
+   object-fit: cover;
+   object-position: bottom;
+   width: 100%;
+   height: 20rem;
+   border-radius: 2px;
+}
+
+  .desc {
+   padding: 15px;
+   text-align: center;
+}
+  .section a {
+    text-decoration: none;
+  }
+  .section a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- embedded html code for links to other pages gallery -->
+<div class="section" >
+  <div class="quicklinks">
+    <div class="desc">See what our students are up to <a href="team.qmd">here</a></div>
+    <a href="team.qmd">
+      <img src="images/IMG_0285.jpg" alt="avatar" width="600" height="400">
+    </a>
+  </div>
+  
+  <div class="quicklinks">
+    <div class="desc">See the Iacchei Lab in the news <a href="News.qmd">here</a></div>
+    <a href="News.qmd">
+      <img src="images/IMG_0283.jpg" alt="avatar" width="600" height="400">
+    </a>
+  </div>
+  
+  <div class="quicklinks">
+    <div class="desc">Find out more about our research <a href="Research.qmd">here</a></div>
+    <a href="Research.qmd">
+      <img src="images/IMG_0286.jpg" alt="avatar" width="600" height="400">
+    </a>
+  </div>
+</div>
+```
+
+</br>
+
+```{=html}
+<style>
+.section {
+  display: flex;              /* Align children side by side */
+  align-items: center; 
+  margin: 2rem auto;
+  gap: 2rem;                  /* Space between image and text */
+  }
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: -0.8rem;
+  }
+
+.hr solid{
+  border-top: 3px solid #bbb;
+  }
+  
+
+.img_spot {
+   min-width: 750px;
+   max-height: 550px;
+   object-fit: cover;
+   object-position: 0px 60%;;
+   border-radius: 2px;
+}
+
+.subsection {
+  display: absolute;
+  margin: 1rem;
+}
+
+</style>
+
+<div class="section">
+  <img class="img_spot" src="images/IMG_4400.JPG" alt="Alondra MSMS Student Symposium">
+  <div class ="subsection">
+    <h2>Spotlight</h2>
+    <hr class="solid">
+    <p> School started August 25th! Our second year graduate student, <a href=AlondraBio.qmd>Alondra Reyes</a>, presented at the MSMS Student Symposium on August 22nd. </p>
+    </div>
+</div>
+```

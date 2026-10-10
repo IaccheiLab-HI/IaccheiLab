@@ -1,0 +1,328 @@
+---
+title: "Team"
+page-layout: full
+editor_options: 
+  chunk_output_type: inline
+toc: false
+
+include-in-header:
+  - text: |
+      <style> /* start of CSS */
+       
+        /* creates title block in header space */
+        .quarto-title-block { 
+          /* removes container constraints */
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+          margin-left: calc(50% - 50vw); 
+          /*continer to flexbox*/
+          display: flex; 
+          /*stacks title, subtitle, and description */
+          flex-direction: column; 
+          /*centers title, subtitle, and description horizontally and vertically */
+          align-items: center; 
+          justify-content: center; 
+          /* makes height and width block fixed % of viewport */
+          height: 80vh; 
+          width: 100vw;
+          /* centers text inside element */
+          text-align: center; 
+          /* removes default spacing */
+          padding: 0; 
+          /* makes block relative point for positioning other elements */
+          position: relative; 
+          /* background image */
+          background-image: url("images/sample.png");
+          background-size: cover; 
+          background-position: center; 
+          background-repeat: no-repeat; 
+        }
+        
+        /* remove padding gap between navbar and header*/
+        body[style*="padding-top"] { padding-top: 0 !important; }
+        
+        /* creates psuedo-element (overlay) before block */
+        .quarto-title-block::before { 
+          content: ""; 
+          /* position of overlay over the block */
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; 
+          /* 40% black overlay */
+          background: rgba(0, 0, 0, 0.4); 
+          z-index: 0;
+        }
+        
+        /* selects text */
+        .quarto-title-block .title,
+        .quarto-title-block .subtitle,
+        .quarto-title-block .description { 
+          position: relative; 
+          z-index: 1; 
+          color: white; 
+        }
+        
+        /* specific title font preference */
+        .title { 
+          font-size: clamp(2.5rem, 5vw, 5rem); 
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+        
+        /* specific subtitle font preference */
+        .subtitle {
+          font-size: clamp(1rem, 2vw, 1.5rem); 
+          margin-bottom: 0.75rem;
+        }
+        
+        /* specific description font preference */
+        .description {
+          font-size: clamp(0.9rem, 1.5vw, 1.2rem); 
+          max-width: 600px;
+          margin: 0 auto; 
+        }
+      /* end of CSS */ </style>
+      
+about: 
+  template: marquee
+---
+
+# Meet Our Team
+
+```{=html}
+
+  <div class="team-card">
+    <a href="MattBio.qmd"><img src="images/WebsitePhoto_Iacchei.jpeg" alt="Matthew Iacchei" ></a>
+    <h3><a href="MattBio.qmd">Matthew Iacchei</a></h3>
+    <h6><a href="MattBio.qmd">Principal Investigator</a></h6>
+  </div>
+
+
+<div class="team-grid">
+  <div class="team-card">
+    <a href="JonathanBio.qmd"><img src="images/WebsitePhoto_Lin.jpeg" alt="Jonathan Lin" ></a>
+    <h3><a href="JonathanBio.qmd">Jonathan Lin</a></h3>
+    <h6><a href="JonathanBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="SophiBio.qmd"><img src="images/WebsitePhoto_Samus.jpg" alt="Sophi Samus" ></a>
+    <h3><a href="SophiBio.qmd">Sophi Samus</a></h3>
+    <h6><a href="SophiBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+   <div class="team-card">
+    <a href="IrieBio.qmd"><img src="images/avatar.jpeg" alt="Irie Baniqued" ></a>
+    <h3><a href="IrieBio.qmd">Irie Baniqued</a></h3>
+    <h6><a href="IrieBio.qmd">Graduate Student</a></h6>
+  </div>
+</div>
+
+<div class="team-card">
+    <a href="KayleeBio.qmd"><img src="images/avatar.jpeg"" alt="Kaylee Tanig" ></a>
+    <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>
+    <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="LianaBio.qmd"><img src="images/WebsitePhoto_Gaspar.jpg" alt="Liana Gaspar" ></a>
+    <h3><a href="LianaBio.qmd">Liana Gaspar</a></h3>
+    <h6><a href="LianaBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="CortneyBio.qmd"><img src="images/WebsitePhoto_Deterding.jpeg" alt="Cortney Deterding" ></a>
+    <h3><a href="CortneyBio.qmd">Cortney Deterding</a></h3>
+    <h6><a href="CortneyBio.qmd">Graduate Student</a></h6>
+  </div>
+  
+  <div class="team-card">
+    <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpeg" alt="Emily Bandalos" ></a>
+    <h3><a href="EmilyBio.qmd">Emily Bandalos</a></h3>
+    <h6><a href="EmilyBio.qmd">Undergraduate Student</a></h6>
+  </div>
+</div>
+```
+
+</br>
+
+## Alum
+
+</br>
+
+```{=html}
+<div class="team-grid">
+    <div class="team-card">
+    <img src="images/avatar.jpeg" alt="Nan" />
+    <h3>Nan Himmelsbach</h3>
+    <h6>M.S. Marine Science</h6>
+    <h8>2020</h8>
+  </div>
+ 
+  <div class="team-card">
+    <a href="SavannahBio.qmd"><img src="images/WebsitePhoto_Laliberte.jpeg" alt="Sav" /></a>
+    <h3><a href="SavannahBio.qmd">Savannah Laliberte</a></h3>
+  </div>
+
+  <div class="team-card">
+      <a href="KlaraBio.qmd"><img src="images/WebsitePhoto_Sobotikova.jpg" alt="Klara" /></a>
+      <h3><a href="KlaraBio.qmd">Klara Sobotikova</a></h3>
+      <h6>M.S. Marine Science</h6>
+      <h8>2025</h8>
+    </div>
+</div>
+
+<div class="team-grid"> 
+  <div class="team-card">
+    <a href="AlondraBio.qmd"><img src="images/WebsitePhoto_Reyes.jpg" alt="Alondra Reyes" ></a>
+    <h3><a href="AlondraBio.qmd">Alondra Reyes</a></h3>
+    <h6><a href="AlondraBio.qmd">M.S. Marine Science</a></h6>
+    <h8>2026</h8>
+  </div>
+  
+  <div class="team-card">
+    <a href="MylouBio.qmd"><img src="images/WebsitePhoto_Matur.jpeg" alt="Mylou" /></a>
+    <h3><a href="MylouBio.qmd">Mylou Matur</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+  </div>
+  
+  <div class="team-card">
+    <a href="AmeliaBio.qmd"><img src="images/WebsitePhoto_Hart.jpg" alt="Amelia" /></a>
+    <h3><a href="AmeliaBio.qmd">Amelia Hart</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+  </div>  
+    
+</div>
+
+<div class="team-grid">
+  <div class="team-card">
+    <a href="VeronikaBio.qmd"><img src="images/WebsitePhoto_Pearson.jpeg" alt="Veronika" /></a>
+    <h3><a href="VeronikaBio.qmd">Veronika Pearson</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+  </div>
+  
+  <div class="team-card">
+    <a href="DiyaBio.qmd"><img src="images/WebsitePhoto_Reddy.JPG" alt="Diya" /></a>
+    <h3><a href = "DiyaBio.qmd">Diya Reddy</a></h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+  </div>
+  
+  <div class="team-card">
+    <img src="images/avatar.jpeg" alt="Vale" />
+    <h3>Valentina Salgado</h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+  </div>
+</div>
+
+<div class="team-grid">
+  <div class="team-card">
+    <img src="images/avatar.jpeg" alt="Aspen" />
+    <h3>Aspen Pawlowski</h3>
+    <h6>B.S. Marine Biology</h6>
+    <h8>2025</h8>
+    </div>
+    
+  <div class="team-card">
+    <a href="RobertaBio.qmd"><img src="images/WebsitePhoto_Cardenas.jpg" alt="Roberta" /></a>
+    <h3><a href="RobertaBio.qmd">Roberta Cardenas</a></h3>
+    <h6>B.S. Marine Biology</h6>
+  </div>
+
+  <div class="team-card">
+    <a href="HikariBio.qmd"><img src="images/WebsitePhoto_Bauson.jpg" alt="Hikari Bauson" /></a>
+    <h3><a href="HikariBio.qmd">Hikari Bauson</a></h3>
+    <h6><a href="HikariBio.qmd">B.S. Marine Biology</a></h6>
+    <h8>2026</h8>
+  </div>
+</div>
+
+<div class="team-grid">
+  <div class="team-card">
+    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Tewahade.JPG" alt="Leila Tewahade" /></a>
+    <h3><a href="LeilaBio.qmd">Leila Tewahade</a></h3>
+    <h6><a href="LeilaBio.qmd">B.S. Biology</a></h6>
+    <h8>2026</h8>
+  </div>
+</div>
+```
+
+<!--# formatting -->
+
+```{=html}
+<style> 
+/* start of CSS for formating */
+  /* responsive grid layout */
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1rem;
+    margin: 1rem;
+  }
+  
+  /* card alignment */
+  .team-card {
+    text-align: center;
+    margin: 3rem;
+    margin-top: .2rem;
+  }
+
+  /* image formating */
+  .team-card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-top: 1.1rem;
+  }
+
+  /* heading formating */
+  .team-card h3 {
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+  }
+
+  .team-card h6 {
+      margin-top: 0.3rem;
+      font-size: 0.9rem;
+      color: grey;
+    }
+  
+  .team-card h8 {
+      margin-top: 0.3rem;
+      font-size: 0.8rem;
+      color: grey;
+    }
+    
+  .team-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .team-card a:hover {
+      text-decoration: none;
+      color: grey;
+    }
+    
+  /* flexible grid wrap */
+  .alum-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1rem;
+    margin: 1rem;
+  }
+
+/* end of CSS */
+</style>
+```

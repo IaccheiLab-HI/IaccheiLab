@@ -1,0 +1,13 @@
+---
+title: "Cortney Deterding"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Deterding.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cdeterding1@my.hpu.edu
+---
+
+Cortney earned her B.S. in Chemistry from Northwestern Oklahoma State University and is currently in the MSMS Program at Hawaiʻi Pacific University. Her primary interest is scientific diving as a tool for underwater research, data collection, and environmental monitoring. She is particularly interested in hands-on fieldwork and using diving techniques to investigate marine ecosystems.

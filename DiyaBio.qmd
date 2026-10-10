@@ -1,0 +1,19 @@
+---
+title: "Diya Reddy" 
+page-layout: full
+
+about:
+  template: trestles  
+  image: images/WebsitePhoto_Reddy.JPG
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:diyareddy.koukutla@gmail.com
+    - icon: file-person
+      text: CV
+      href: https://github.com/IaccheiLab-HI/IaccheiLab/blob/main/CV_Reddy.pdf
+---
+
+Diya graduated from Hawaiʻi Pacific University with a B.S. in Marine Biology in 2025. With a strong interest in genetics and aquaculture, her undergraduate research focused on DNA barcoding megalops (final stage crab larvae) from the Kona side of Hawaiʻi Island.
+
+Contact: diyareddy.koukutla\@gmail.com

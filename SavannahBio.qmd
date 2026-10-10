@@ -1,0 +1,11 @@
+---
+title: "Savannah Laliberte"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Laliberte.jpeg
+---
+
+After growing up in Pittsburgh Pennsylvania, Savannah moved to Hawai‘i in August of 2015 to pursue a Bachelor’s degree in Marine Biology at Hawaiʻi Pacific University. During her time as an undergraduate at HPU, she was a voluntary laboratory assistant on the Seabird Tissue Archival and Monitoring Project (STAMP), a collaboration between the National Institute of Standards and Technology (NIST) and HPU to investigate environmental contaminants in seabird eggs. In addition to that, she participated in the Our Project in Hawaii’s Intertidal (OPIHI) internship through the University of Hawai‘i, Manoa Campus. During this internship, she used stable isotopes as a tool to examine mullet food web dynamics in Heʻeia Fishpond. 
+
+Building upon her work done during the OPIHI internship, she decided to continue her education with HPU’s Master of Science Marine Science Program (MSMS). Her research focused on assessing mullet recruitment on a spatiotemporal scale within Kāne’ohe Bay. Savannah has a passion for conducting science with a purpose that will push the boundaries of scientific knowledge, while also producing results that are directly tangible to local Hawaiian communities and the public. 
