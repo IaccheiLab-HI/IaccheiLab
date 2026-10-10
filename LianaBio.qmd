@@ -3,7 +3,7 @@ title: "Liana Gaspar"
 page-layout: full
 about: 
   template: trestles
-  image: images/WebsitePhoto_Gaspar.jpeg
+  image: images/WebsitePhoto_Gaspar.JPG
   links:
     - icon: envelope
       text: Email

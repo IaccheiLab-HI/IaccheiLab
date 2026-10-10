@@ -128,7 +128,7 @@ about:
   </div>
   
   <div class="team-card">
-    <a href="LianaBio.qmd"><img src="images/WebsitePhoto_Gaspar.jpg" alt="Liana Gaspar" ></a>
+    <a href="LianaBio.qmd"><img src="images/WebsitePhoto_Gaspar.JPG" alt="Liana Gaspar" ></a>
     <h3><a href="LianaBio.qmd">Liana Gaspar</a></h3>
     <h6><a href="LianaBio.qmd">Graduate Student</a></h6>
   </div>
