@@ -246,6 +246,13 @@ about:
     <h6><a href="LeilaBio.qmd">B.S. Biology</a></h6>
     <h8>2026</h8>
   </div>
+  
+    <div class="team-card">
+    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Lawlor.png" alt="Colleen Lawlor" /></a>
+    <h3><a href="ColleenBio.qmd">Colleen Lawlor</a></h3>
+    <h6><a href="ColleenBio.qmd">M.S. Marine Science</a></h6>
+    <h8>2024</h8>
+  </div>
 </div>
 ```
 
