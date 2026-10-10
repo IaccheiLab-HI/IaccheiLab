@@ -4,7 +4,7 @@ page-layout: full
 
 about:
   template: trestles  
-  image: images/avatar.jpeg
+  image: images/WebsitePhoto_Cheng.jpeg
 ---
 
 ## Bio

@@ -115,7 +115,7 @@ about:
   </div>
   
    <div class="team-card">
-    <a href="IrieBio.qmd"><img src="images/avatar.jpeg" alt="Irie Baniqued" ></a>
+    <a href="IrieBio.qmd"><img src="images/WebsitePhoto_Cheng.jpeg" alt="Irie Baniqued" ></a>
     <h3><a href="IrieBio.qmd">Irie Baniqued</a></h3>
     <h6><a href="IrieBio.qmd">Graduate Student</a></h6>
   </div>
@@ -157,7 +157,7 @@ about:
 ```{=html}
 <div class="team-grid">
     <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Nan" />
+    <img src="images/WebsitePhoto_Himmelsbach.jpeg" alt="Nan" />
     <h3>Nan Himmelsbach</h3>
     <h6>M.S. Marine Science</h6>
     <h8>2020</h8>
