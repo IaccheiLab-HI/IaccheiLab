@@ -1,0 +1,15 @@
+---
+title: "JJ Baczenas"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_Baczenas.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:baczenasj@gmail.com
+---
+
+JJ is currently the Lab Manager at the Schumer Lab at Stanford University. He is interested in using genomic techniques and next-generation sequencing to study how ecological pressures influence genetic and evolutionary processes.
+
+At HPU, JJ worked with David Hyrenbach's graduate student Illana Nimz to extract and PCR amplify the gut contents of Chocolate (Christmas) Shearwaters in Hawai'i

@@ -140,7 +140,9 @@ about:
 
 </br>
 
-`<div class="team-grid">   <div class="team-card">     <a href="KayleeBio.qmd"><img src="images/WebsitePhoto_Tanig.png"" alt="Kaylee Tanig" ></a>     <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>     <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>   </div>      <div class="team-card">     <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpeg" alt="Emily Bandalos" ></a>     <h3><a href="EmilyBio.qmd">Emily Bandalos</a></h3>     <h6><a href="EmilyBio.qmd">Undergraduate Student</a></h6>   </div> </div>`{=html}
+```{=html}
+<div class="team-grid">   <div class="team-card">     <a href="KayleeBio.qmd"><img src="images/WebsitePhoto_Tanig.png"" alt="Kaylee Tanig" ></a>     <h3><a href="KayleeBio.qmd">Kaylee Tanig</a></h3>     <h6><a href="KayleeBio.qmd">Undergraduate Student</a></h6>   </div>      <div class="team-card">     <a href="EmilyBio.qmd"><img src="images/WebsitePhoto_Bandalos.jpeg" alt="Emily Bandalos" ></a>     <h3><a href="EmilyBio.qmd">Emily Bandalos</a></h3>     <h6><a href="EmilyBio.qmd">Undergraduate Student</a></h6>   </div> </div>
+```
 
 </br>
 
@@ -160,6 +162,7 @@ about:
   <div class="team-card">
     <a href="SavannahBio.qmd"><img src="images/WebsitePhoto_Laliberte.jpeg" alt="Sav" /></a>
     <h3><a href="SavannahBio.qmd">Savannah Laliberte</a></h3>
+    <h6>B.S. Marine Biology</h6>
   </div>
 
   <div class="team-card">
@@ -210,7 +213,7 @@ about:
   </div>
   
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Vale" />
+    <img src="images/WebsitePhoto_Salgado.png" alt="Vale" />
     <h3>Valentina Salgado</h3>
     <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
@@ -219,11 +222,11 @@ about:
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="images/avatar.jpeg" alt="Aspen" />
+    <img src="images/WebsitePhoto_Pawlowski.jpeg" alt="Aspen" />
     <h3>Aspen Pawlowski</h3>
     <h6>B.S. Marine Biology</h6>
     <h8>2025</h8>
-    </div>
+  </div>
     
   <div class="team-card">
     <a href="RobertaBio.qmd"><img src="images/WebsitePhoto_Cardenas.jpg" alt="Roberta" /></a>
@@ -247,13 +250,41 @@ about:
     <h8>2026</h8>
   </div>
   
-    <div class="team-card">
-    <a href="LeilaBio.qmd"><img src="images/WebsitePhoto_Lawlor.png" alt="Colleen Lawlor" /></a>
+  <div class="team-card">
+    <a href="ColleenBio.qmd"><img src="images/WebsitePhoto_Lawlor.png" alt="Colleen Lawlor" /></a>
     <h3><a href="ColleenBio.qmd">Colleen Lawlor</a></h3>
     <h6><a href="ColleenBio.qmd">M.S. Marine Science</a></h6>
     <h8>2024</h8>
   </div>
 </div>
+
+<div class="team-grid">
+ <div class="team-card">
+    <a href="JJBio.qmd"><img src="images/WebsitePhoto_Baczenas.png" alt="JJ Baczenas" /></a>
+    <h3><a href="JJBio.qmd">JJ Baczenas</a></h3>
+    <h6><a href="JJBio.qmd">B.S. Marine Biology</a></h6>
+    <h8>2019</h8>
+  </div>
+</div>
+
+<div class="team-grid">
+   <div class="team-card">
+    <a href="SarahBio.qmd"><img src="images/WebsitePhoto_StiversonVivensi.png" alt="Sarah" /></a>
+    <h3><a href="SarahBio.qmd">Sarah Vivensi (Stiverson)</a></h3>
+    <h6><a href="SarahBio.qmd">B.S. Marine Biology</a></h6>
+    <h8>2020</h8>
+  </div>
+  
+   <div class="team-card">
+    <a href="CaitlinBio.qmd"><img src="images/WebsitePhoto_Visser.jpeg" alt="Caitlin" /></a>
+    <h3><a href="CaitlinBio.qmd">Caitlin Visser</a></h3>
+    <h8>2025</h8>
+  </div>
+  
+</div>
+  
+
+
 ```
 
 <!--# formatting -->

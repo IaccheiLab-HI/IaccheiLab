@@ -1,0 +1,9 @@
+---
+title: "Sarah Vivensi (Stiverson)"
+page-layout: full
+about: 
+  template: trestles
+  image: images/WebsitePhoto_StiversonVivensi.png
+---
+
+Sara graduated with her BS in Marine Biology in 2020. She completed an honors capstone project in the lab, analyzing monthly changes in fish communities using environmental DNA (eDNA) in collaboration with a school in the Miloli'i community on Hawaiʻi Island. For the honors interdisciplinary component of her senior capstone project, Sara wrote a children’s book to describe the scientific process in the context of her research. After graduation, she worked in a lab conducting covid-19 tests for airplane passengers in the NE USA, and then attended Michigan State University’s Integrative Pharmacology Graduate Program in the College of Osteopathic Medicine.
